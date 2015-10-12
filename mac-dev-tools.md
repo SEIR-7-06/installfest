@@ -47,7 +47,7 @@ If you must run a version of OS X before Maverick, you will need to install comm
 2. **Only if you do not have Homebrew installed**, run the command below to install Homebrew. Wait while Homebrew is downloads and installs.
 
 	```bash
-	ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+	$ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 	```
 
 	If you run into problems, you may need to run `rm -rf /usr/local/Cellar /usr/local/.git` and then retry the command above.
@@ -59,13 +59,13 @@ If you must run a version of OS X before Maverick, you will need to install comm
 5. You may need to edit your `~/.bash_profile` to include the path to Homebrew if `brew doctor` shows warnings.
 
 	```bash
-	bash echo 'export PATH="/usr/local/bin:/usr/local/sbin:~/bin:$PATH"' >> ~/.bash_profile
+	$ bash echo 'export PATH="/usr/local/bin:/usr/local/sbin:~/bin:$PATH"' >> ~/.bash_profile
 	```
 
 6. Let's install our first package with Homebrew, `tree`!  This package adds a command to your Terminal that displays files in a tree view (instead of a list view like `ls`).  Enter the following command in your Terminal:
 
 	```bash
-	brew install tree
+	$ brew install tree
 	```
 
 7. Run the Terminal command `tree` to see a tree view of all the files inside your current directory!
@@ -81,7 +81,7 @@ You should already have git installed and have an account on GitHub from Fundame
 2. **Only if you do not have git installed**, run the following command in your Terminal:
 
 	```bash
-	brew install git
+	$ brew install git
 	```
 
 ### Configure Git
@@ -91,9 +91,9 @@ Configuring your git settings will help GitHub track your contributions and to m
 1. Use the following three `git config` commands to configure your git user information and have git "cache" (remember) it. We use the `--global` (or `-g`) option to make the configuration apply to all repositories.
 
 	```bash
-	git config --global user.name "YOUR_GITHUB_USERNAME"
-	git config --global user.email "YOUR_GITHUB_EMAIL_ADDRESS"
-	git config --global credential.helper cache
+	$ git config --global user.name "YOUR_GITHUB_USERNAME"
+	$ git config --global user.email "YOUR_GITHUB_EMAIL_ADDRESS"
+	$ git config --global credential.helper cache
 	```
 
 2. Generate a SSH key for GitHub by <a href="https://help.github.com/articles/generating-ssh-keys" target="_blank">following GitHub's instructions</a>. This will allow you to use GitHub from your Terminal without entering your login information every time you push.
@@ -128,13 +128,13 @@ Sublime Text 3 includes a program that launches Sublime from the Terminal. We'll
 1. To run a program from the Terminal, it needs to be available on your $PATH. The next step assumes `/usr/local/bin` is in your $PATH, so let's check that.  Run the following command from the Terminal to see your current $PATH:
 
 	```bash
-	echo $PATH
+	$ echo $PATH
 	```
 
 2. Run the following command in your Terminal to set up the link:
 
 	```bash
-	ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
+	$ ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
 	```
 
 3. Type `subl .` in the Terminal, and Sublime Text 3 should open!
@@ -146,7 +146,7 @@ When you forget to enter a commit message in the Terminal, git opens a text edit
 1. Run the following command in the Terminal to configure git to open Sublime Text instead of the default text editor:
 
 	```bash
-	git config --global core.editor "subl"
+	$ git config --global core.editor "subl"
 	```
 
 ## Chrome

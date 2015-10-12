@@ -22,7 +22,7 @@ If you are using an earlier version of Ruby or Rails, continue with the instruct
 1. Run the following command in your Terminal to install both RVM and the latest version of Ruby.
 
   ```bash
-  \curl -L https://get.rvm.io | bash -s stable --ruby
+  $ \curl -L https://get.rvm.io | bash -s stable --ruby
   ```
 
 ## Rails 4
@@ -32,7 +32,7 @@ Ruby packages are referred to as "gems".
 1. Use the following Terminal command to install Rails 4.
 
   ```bash
-  gem install rails
+  $ gem install rails
   ```
 
   If this causes errors on your machine, try running `sudo gem install rails` instead.
@@ -49,20 +49,20 @@ Ruby packages are referred to as "gems".
   * Add Postgres.app to your `$PATH`
 
     ```bash
-      echo 'PATH=$PATH:/Applications/Postgres.app/Contents/Versions/9.4/bin' >> ~/.bash_profile
+    $ echo 'PATH=$PATH:/Applications/Postgres.app/Contents/Versions/9.4/bin' >> ~/.bash_profile
     ```
 
   * Source your `~/.bash_profile`
 
     ```bash
-    source ~/.bash_profile
+    $ source ~/.bash_profile
     ```
 
   * Check that your install worked
 
-      ```bash
-      which psql
-      ```
+    ```bash
+    $ which psql
+    ```
 
 ### Alternate Install with Homebrew
 
