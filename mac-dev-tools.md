@@ -126,6 +126,8 @@ The other package we'll to add, `jshint`, requires Node.js, so we'll get to it i
 
 Sublime Text 3 includes a program that launches Sublime from the Terminal. We'll use the `ln` command to link that program to a simple `subl` command.
 
+**Before following these steps**, make sure you downloaded Sublime Text 3, NOT Sublime Text 2. Also make sure you're running Sublime from your Applications folder NOT from the installer (go ahead and eject the installer if you haven't already).
+
 1. To run a program from the Terminal, it needs to be available on your $PATH. The next step assumes `/usr/local/bin` is in your $PATH, so let's check that.  Run the following command from the Terminal to see your current $PATH:
 
 	```bash
