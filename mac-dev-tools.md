@@ -7,7 +7,8 @@
 2. Install Homebrew, a package manager for Mac. (Package managers are programs that help you install external tools and keep them updated with the latest versions.)
 3. Configure git, a version control system. (Version control systems are programs that help you keep track of changes in your code.)
 4. Install and configure Sublime Text, a text editor specialized for writing code.
-5. Install the Chrome web browser.
+5. Install oh-my-zsh, a program that adds extra features to the Terminal.
+6. Install the Chrome web browser.
 
 If you don't already have an account for the Mac App Store, follow the instructions on Apple Support to <a href="https://support.apple.com/kb/PH11499?locale=en_US" target="_blank">create a Mac App Store account</a>.
 
@@ -147,6 +148,16 @@ When you forget to enter a commit message in the Terminal, git opens a text edit
 
 	```bash
 	$ git config --global core.editor "subl"
+	```
+
+## zsh
+
+`zsh` (or "z-shell") is an alternative shell for your Terminal (the default shell is called `bash`). `zsh` provides features for more interactive Terminal use. We'll use <a href="https://github.com/robbyrussell/oh-my-zsh" target="_blank">oh-my-zsh</a> to manage our `zsh` configuration.
+
+1. Paste this command into your Terminal to install oh-my-zsh:
+
+	```bash
+	sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 	```
 
 ## Chrome
