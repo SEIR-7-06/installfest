@@ -10,6 +10,8 @@ Most of the coding work we do in weeks 3 to 5 will be driven by the back-end web
 
 ## Node.js
 
+__Note:  when copying the code snippets, please exclude the ($) as you paste and run the code into your terminal.  The dollar sign ($) is simply an indicator of the user in examples.__
+
 1. Install Node.js with Homebrew by running the following command in the Terminal:
 
   ```bash
