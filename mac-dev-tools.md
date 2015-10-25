@@ -1,25 +1,15 @@
 # Installfest Step 1: Mac Development Tools
 
-#### Plan Overview
-
-1. Upgrade operating system to Maverick or Yosemite.   
-1. Install Xcode and Command Line Tools, the most basic built-in coding tools for Mac.  
-2. Install Homebrew, a package manager for Mac. (Package managers are programs that help you install external tools and keep them updated with the latest versions.)
-3. Configure git, a version control system. (Version control systems are programs that help you keep track of changes in your code.)
-4. Install and configure Sublime Text, a text editor specialized for writing code.
-5. Install oh-my-zsh, a program that adds extra features to the Terminal.
-6. Install the Chrome web browser.
+## Operating System & Command Line Tools
 
 If you don't already have an account for the Mac App Store, follow the instructions on Apple Support to <a href="https://support.apple.com/kb/PH11499?locale=en_US" target="_blank">create a Mac App Store account</a>.
-
-## Operating System & Command Line Tools
 
 Before class starts, we suggest you upgrade your operating system to OS X Maverick or Yosemite. We don't recommend you use El Capitan *yet*, because some of the tools we use have not been updated for El Capitan. **Do not upgrade your operating system during WDI.**
 
 To check what version of OS X you're running:
 
-1. Click the apple icon in the top left of your computer screen.  
-2. Select "About This Mac" from the dropdown menu.   
+1. Click the apple icon in the top left of your computer screen.
+2. Select "About This Mac" from the dropdown menu.
 3. Read the version information from the window that pops up.
 
 If you are not using Maverick or Yosemite, detailed instructions for upgrading your operating system are available through Apple support: <a href="https://www.apple.com/support/osx/upgrade" target="_blank">How to upgrade to OS X Yosemite</a>.
@@ -32,12 +22,12 @@ If you are not using Maverick or Yosemite, detailed instructions for upgrading y
 
 ### Install Command Line Tools through Xcode (Older Versions of OS X)
 
-If you must run a version of OS X before Maverick, you will need to install command line tools that come from Xcode. **Only follow these steps if you were not able to install Xcode command line tools with the instructions above.**
+**Only follow these steps if you were not able to install Xcode Command Line Tools with the instructions above.** If you must run a version of OS X before Maverick, you will need to install Command Line Tools that come from Xcode.
 
 1. Open the Mac App Store and install Xcode.
-1. Open Xcode.
-1. Inside the Xcode menu, choose Preferences > Downloads > Install The Command Line Tools.
-1. Follow the instructions in the installer.
+2. Open Xcode.
+3. Inside the Xcode menu, choose Preferences > Downloads > Install The Command Line Tools.
+4. Follow the instructions in the installer.
 
 ## Homebrew
 
@@ -111,7 +101,7 @@ Configuring your git settings will help GitHub track your contributions and to m
 Sublime Text has its own package manager called Package Control. We'll use it to add extra features to Sublime Text, including a web development shortcut package called "Emmet" and a JavaScript syntax helper "jshint".
 
 1. Follow <a href="https://packagecontrol.io/installation" target="_blank">Package Control's "simple installation" instructions</a> to add Package Control to Sublime Text. When you paste the large block of text, make sure you:
-	* use the Sublime Text 3 version, and   
+	* use the Sublime Text 3 version, and
 	* enter the text into the bottom rectangle of the Sublime Text console.
 2. We access Package Control through the Sublime Text command palette. Open the palette by pressing `cmd + shift + p` within Sublime Text. Start typing "Package Control" in the command palette to see the list of things Package Control can do.
 
@@ -161,6 +151,10 @@ When you forget to enter a commit message in the Terminal, git opens a text edit
 	```bash
 	sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 	```
+
+2. Open up your Terminal preferences, and in the "General" tab, make sure you have `/bin/zsh` as the command your shell opens with:
+
+	![screen shot 2015-10-25 at 16 08 17](https://cloud.githubusercontent.com/assets/7833470/10718542/b8e13014-7b32-11e5-9182-a65e8d279bd3.png)
 
 ## Chrome
 
