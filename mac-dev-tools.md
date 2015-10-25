@@ -31,6 +31,8 @@ If you are not using Maverick or Yosemite, detailed instructions for upgrading y
 
 ## Homebrew
 
+__Note:  when copying the code snippets, please exclude the ($) as you paste and run the code into your terminal.  The dollar sign ($) is simply an indicator of the user in examples.__
+
 <a href="http://brew.sh" target="_blank">Homebrew</a> is a *package manager* for OS X. We'll use it to quickly download and install other tools we need, or to update already installed tools.
 
 1. Open the Terminal application, and run `which brew` to check if you have Homebrew installed already. The `which` Terminal command shows where on your computer a program is installed. If it is installed, the Terminal will output a file path. If it is not installed, the Terminal won't output anything.
