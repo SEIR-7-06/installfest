@@ -31,7 +31,7 @@ If you are not using Maverick or Yosemite, detailed instructions for upgrading y
 
 ## Homebrew
 
-__Note:  when copying the code snippets, please exclude the ($) as you paste and run the code into your terminal.  The dollar sign ($) is simply an indicator of the user in examples.__
+**Note:** When copying the code snippets, exclude the `$` as you run the code in your Terminal. The `$` is simply an indicator of the user in the Terminal.
 
 <a href="http://brew.sh" target="_blank">Homebrew</a> is a *package manager* for OS X. We'll use it to quickly download and install other tools we need, or to update already installed tools.
 

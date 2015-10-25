@@ -2,20 +2,14 @@
 
 Most of the coding work we do in weeks 3 to 5 will be driven by the back-end web development framework <a href="http://expressjs.com" target="_blank">Express</a>. We'll install Express individually in each project we create. For now, we'll install the other tools we'll use along with Express.
 
-#### Plan Overview
-
-1. Install Node.js, a platform for back-end web development with the JavaScript programming language.
-2. Install jshint and its Sublime Text packages to get realtime JavaScript syntax hints.
-3. Install MongoDB, the database we'll use with our Node.js and Express stack.
-
 ## Node.js
 
-__Note:  when copying the code snippets, please exclude the ($) as you paste and run the code into your terminal.  The dollar sign ($) is simply an indicator of the user in examples.__
+**Note:** When copying the code snippets, exclude the `➜` as you run the code in your Terminal. The `➜` is simply an indicator of the user in the Terminal. Notice the `$` in your Terminal changed to an `➜` now that we're using `zsh` instead of `bash`!
 
 1. Install Node.js with Homebrew by running the following command in the Terminal:
 
-  ```bash
-  $ brew install node
+  ```zsh
+  ➜  brew install node
   ```
 
 2. Run the Terminal command `which node` to check that Node.js was installed. You should see a file path. The Terminal command `node` changes your Terminal into a Javascript REPL ("Read Evaluate Print Loop"), like the right-hand side of repl.it. Type `ctrl + c` twice to quit out of the REPL and return to the normal Terminal commands.
@@ -28,8 +22,8 @@ Nodemon (short for "node monitor") will make our Node.js workflow more efficient
 
 1. Install nodemon globally with the following Terminal command:
 
-  ```bash
-  $ sudo npm install -g nodemon
+  ```zsh
+  ➜  sudo npm install -g nodemon
   ```
 
 ### jshint
@@ -46,31 +40,31 @@ MonogDB is a database that stores information as easy to read "documents". We'll
 
 1. Use Homebrew to update all our brew packages.
 
-  ```bash
-  $ brew update
+  ```zsh
+  ➜  brew update
   ```
 
 2. Run `brew install` for **MongoDB**.
 
-  ```bash
-  $ brew install mongodb
+  ```zsh
+  ➜  brew install mongodb
   ```
 
 3. Then we'll need a directory for **MongoDB** to save data.
 
-  ```bash
-  $ sudo mkdir -p /data/db
+  ```zsh
+  ➜  sudo mkdir -p /data/db
   ```
 
 4. Finally we'll want to make sure we have permission to read and write to this directory.
 
-  ```bash
-  $ sudo chown -R $USER /data/db
+  ```zsh
+  ➜  sudo chown -R $USER /data/db
   ```
 
 5. Run two commands to check whether the install worked. You should see a file path after each command.
 
-  ```bash
-  $ which mongod
-  $ which mongo
+  ```zsh
+  ➜  which mongod
+  ➜  which mongo
   ```

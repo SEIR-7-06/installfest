@@ -1,11 +1,5 @@
 # Installfest Step 3: Ruby on Rails Stack
 
-#### Plan Overview
-
-1. Update your install of the Ruby programming language and install rvm to manage versions of Ruby.
-2. Install Rails, a back-end web development framework for the Ruby programming language.
-3. Install PostgreSQL, the database we'll use with our Ruby on Rails stack.
-
 ## Check Previous Installs
 
 If you've already experimented with Ruby and/or Rails before, verify that your versions are correct for this upcoming class.
@@ -17,14 +11,14 @@ If you are using an earlier version of Ruby or Rails, continue with the instruct
 
 ## RVM and Ruby
 
-__Note:  when copying the code snippets, please exclude the ($) as you paste and run the code into your terminal.  The dollar sign ($) is simply an indicator of the user in examples.__
+**Note:** When copying the code snippets, exclude the `➜` as you run the code in your Terminal. The `➜` is simply an indicator of the user in the Terminal.
 
 <a href="http://www.rvm.io" target="_blank">RVM</a> is a Ruby Version Manager. It lets you easily switch between versions of the Ruby programming language for different projects.
 
 1. Run the following command in your Terminal to install both RVM and the latest version of Ruby.
 
-  ```bash
-  $ \curl -L https://get.rvm.io | bash -s stable --ruby
+  ```zsh
+  ➜  \curl -L https://get.rvm.io | bash -s stable --ruby
   ```
 
 ## Rails 4
@@ -33,8 +27,8 @@ Ruby packages are referred to as "gems".
 
 1. Use the following Terminal command to install Rails 4.
 
-  ```bash
-  $ gem install rails
+  ```zsh
+  ➜  gem install rails
   ```
 
   If this causes errors on your machine, try running `sudo gem install rails` instead.
@@ -48,22 +42,23 @@ Ruby packages are referred to as "gems".
 2. Follow Postgress.app's install instructions (move Postgres.app into your Applications folder).
 
 3. Follow Postgres.app's <a href="http://postgresapp.com/documentation/cli-tools.html" target="_blank">instructions to install command line tools</a>:
+  
   * Add Postgres.app to your `$PATH`
 
-    ```bash
-    $ echo 'PATH=$PATH:/Applications/Postgres.app/Contents/Versions/9.4/bin' >> ~/.bash_profile
+    ```zsh
+    ➜  echo 'PATH=$PATH:/Applications/Postgres.app/Contents/Versions/9.4/bin' >> ~/.zshrc
     ```
 
-  * Source your `~/.bash_profile`
+  * Source your `~/.zshrc`
 
-    ```bash
-    $ source ~/.bash_profile
+    ```zsh
+    ➜  source ~/.zshrc
     ```
 
   * Check that your install worked
 
-    ```bash
-    $ which psql
+    ```zsh
+    ➜  which psql
     ```
 
 ### Alternate Install with Homebrew
