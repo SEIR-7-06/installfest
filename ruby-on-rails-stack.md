@@ -45,39 +45,29 @@ Ruby packages are referred to as "gems".
   $ gem install rails
   ```
 
-  This might take a few minutes.  At the end you should see something like:
-  ```bash
-
-  ```
+  This might take a few minutes.  
   If this causes errors on your machine, ask for help.
 
 ## PostgreSQL  
 
-### Postgres.app (preferred)
+### Postgres
 
-1. Download <a href="http://postgresapp.com" target="_blank">Postgres.app</a>.
+1. Install postgres via Homebrew
+  ```bash
+  $ brew postgres
+  ```
 
-2. Follow Postgress.app's install instructions (move Postgres.app into your Applications folder).
+2. Configure postgres to start when the system does.
 
-3. Follow Postgres.app's <a href="http://postgresapp.com/documentation/cli-tools.html" target="_blank">instructions to install command line tools</a>:
-  * Add Postgres.app to your `$PATH`
+  ```bash
+  $ mkdir -p ~/Library/LaunchAgents
 
-    ```bash
-    $ echo 'PATH=$PATH:/Applications/Postgres.app/Contents/Versions/9.4/bin' >> ~/.bash_profile
-    ```
+  $ ln -sfv /usr/local/opt/postgresql/*.plist ~/Library/LaunchAgents
+  ```
 
-  * Source your `~/.bash_profile`
 
-    ```bash
-    $ source ~/.bash_profile
-    ```
-
-  * Check that your install worked
+3. Check that your install worked
 
     ```bash
     $ which psql
     ```
-
-### Alternate Install with Homebrew
-
-**Only if the Postgres.app instructions above were unsuccessfully and you have spoken to a member of the teaching team**, follow these <a href="http://exponential.io/blog/2015/02/21/install-postgresql-on-mac-os-x-via-brew" target="_blank">instructions for installing PostgreSQL with Homebrew.</a>
