@@ -144,19 +144,6 @@ When you forget to enter a commit message in the Terminal, git opens a text edit
 	$ git config --global core.editor "subl"
 	```
 
-## zsh
-
-`zsh` (or "z-shell") is an alternative shell for your Terminal (the default shell is called `bash`). `zsh` provides features for more interactive Terminal use. We'll use <a href="https://github.com/robbyrussell/oh-my-zsh" target="_blank">oh-my-zsh</a> to manage our `zsh` configuration.
-
-1. Paste this command into your Terminal to install oh-my-zsh:
-
-	```bash
-	sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-	```
-
-2. Open up your Terminal preferences, and in the "General" tab, make sure you have `/bin/zsh` as the command your shell opens with:
-
-	![screen shot 2015-10-25 at 16 08 17](https://cloud.githubusercontent.com/assets/7833470/10718542/b8e13014-7b32-11e5-9182-a65e8d279bd3.png)
 
 ## Chrome
 
