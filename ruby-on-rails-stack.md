@@ -10,10 +10,11 @@
 
 If you've already experimented with Ruby and/or Rails before, verify that your versions are correct for this upcoming class.
 
-1. In your Terminal, run `ruby --version`. The output will include the version number of Ruby you have installed. **Verify you are running version 2.0+ of Ruby**.
+1. In your Terminal, run `ruby --version`. The output will include the version number of Ruby you have installed. **Verify you are running version 2.0+ of Ruby and that it does not say `universal.x86-64`**.
 2. In your Terminal, run `rails --version`. **Verify you are running version 4 of Rails**.
+3. In your Terminal, run `rvm list`.  **Verify you have version 1.26.x or greater.**
 
-If you are using an earlier version of Ruby or Rails, continue with the instructions to get your environment set up. Run these version commands in the Terminal again after you're done to ensure everything is working properly.
+If you are using an earlier version of RVM, Ruby or Rails, continue with the instructions to get your environment set up. Run these version commands in the Terminal again after you're done to ensure everything is working properly.
 
 ## RVM and Ruby
 
@@ -27,6 +28,13 @@ __Note:  when copying the code snippets, please exclude the `$` as you paste and
   $ \curl -L https://get.rvm.io | bash -s stable --ruby
   ```
 
+2. Close your terminal and open a new one now.
+
+3. Run
+  ```bash
+  $ gem install bundler
+  ```
+
 ## Rails 4
 
 Ruby packages are referred to as "gems".
@@ -37,7 +45,11 @@ Ruby packages are referred to as "gems".
   $ gem install rails
   ```
 
-  If this causes errors on your machine, try running `sudo gem install rails` instead.
+  This might take a few minutes.  At the end you should see something like:
+  ```bash
+
+  ```
+  If this causes errors on your machine, ask for help.
 
 ## PostgreSQL  
 
