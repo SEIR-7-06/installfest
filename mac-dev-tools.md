@@ -12,7 +12,7 @@ To check what version of OS X you're running:
 2. Select "About This Mac" from the dropdown menu.
 3. Read the version information from the window that pops up.
 
-If you are not using Maverick or Yosemite, detailed instructions for upgrading your operating system are available through Apple support: <a href="https://www.apple.com/support/osx/upgrade" target="_blank">How to upgrade to OS X Yosemite</a>.
+If you are not using Maverick (10.9) or Yosemite (10.10), detailed instructions for upgrading your operating system are available through Apple support: <a href="https://www.apple.com/support/osx/upgrade" target="_blank">How to upgrade to OS X Yosemite</a>.
 
 ### Install Command Line Tools from the Terminal
 
@@ -31,13 +31,13 @@ If you are not using Maverick or Yosemite, detailed instructions for upgrading y
 
 ## Homebrew
 
-__Note:  when copying the code snippets, please exclude the ($) as you paste and run the code into your terminal.  The dollar sign ($) is simply an indicator of the user in examples.__
+__Note:  when copying the code snippets, please exclude the `$` as you paste and run the code into your terminal.  The dollar sign `$` is simply an indicator of the logged-in user in examples.__
 
 <a href="http://brew.sh" target="_blank">Homebrew</a> is a *package manager* for OS X. We'll use it to quickly download and install other tools we need, or to update already installed tools.
 
 1. Open the Terminal application, and run `which brew` to check if you have Homebrew installed already. The `which` Terminal command shows where on your computer a program is installed. If it is installed, the Terminal will output a file path. If it is not installed, the Terminal won't output anything.
 
-2. **Only if you do not have Homebrew installed**, run the command below to install Homebrew. Wait while Homebrew is downloads and installs.
+2. **Only if you do not have Homebrew installed**, run the command below to install Homebrew. Wait while Homebrew downloads and installs.
 
 	```bash
 	$ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -49,7 +49,7 @@ __Note:  when copying the code snippets, please exclude the ($) as you paste and
 
 4. Run `brew doctor` in your Terminal to check that Homebrew and any current packages are installed correctly. If there are issues, `brew doctor` will list suggestions for how to fix them.  Follow these suggestions one by one. If you're not sure what to do, ask!
 
-5. You may need to edit your `~/.bash_profile` to include the path to Homebrew if `brew doctor` shows warnings.
+5. You may need to edit your `~/.bash_profile` to include the path to Homebrew if `brew doctor` shows warnings.  If in doubt ask for help here.
 
 	```bash
 	$ bash echo 'export PATH="/usr/local/bin:/usr/local/sbin:~/bin:$PATH"' >> ~/.bash_profile
