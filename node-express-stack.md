@@ -29,7 +29,7 @@ Nodemon (short for "node monitor") will make our Node.js workflow more efficient
 1. Install nodemon globally with the following Terminal command:
 
   ```bash
-  $ sudo npm install -g nodemon
+  $  npm install -g nodemon
   ```
 
 ### jshint
