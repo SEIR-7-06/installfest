@@ -4,7 +4,7 @@
 
 If you don't already have an account for the Mac App Store, follow the instructions on Apple Support to <a href="https://support.apple.com/kb/PH11499?locale=en_US" target="_blank">create a Mac App Store account</a>.
 
-Before class starts, we suggest you upgrade your operating system to OS X Mavericks, Yosemite or El Capitan.  If you're on an older machine with 4GB or less of memory, please stick to OS X Mavericks.  Also, if Apple happens to release a newer version of OS X while you're in WDI; don't update until your instructors tell you to.
+Before class starts, we suggest you upgrade your operating system to OS X Mavericks (10.9), Yosemite (10.10) or El Capitan (10.11).  If you're on an older machine with 4GB or less of memory, please stick to OS X Mavericks.  Also, if Apple releases a newer version of OS X while you're in WDI; please don't update until your instructors say it's ok.
 
 To check what version of OS X you're running:
 

@@ -10,7 +10,7 @@
 
 If you've already experimented with Ruby and/or Rails before, verify that your versions are correct for this upcoming class.
 
-1. In your Terminal, run `ruby --version`. The output will include the version number of Ruby you have installed. **Verify you are running version 2.0+ of Ruby and that it does not say `universal.x86-64`**.
+1. In your Terminal, run `ruby --version`. The output will include the version number of Ruby you have installed. **Verify you are running version 2.0+ of Ruby and that it does not say `universal.x86-64`**.  The `universal` build is the one that comes with OS X, we want to use a ruby version supplied by RVM.
 2. In your Terminal, run `rails --version`. **Verify you are running version 4 of Rails**.
 3. In your Terminal, run `rvm list`.  **Verify you have version 1.26.x or greater.**
 
