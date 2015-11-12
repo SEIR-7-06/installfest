@@ -54,7 +54,7 @@ Ruby packages are referred to as "gems".
 
 1. Install postgres via Homebrew
   ```bash
-  $ brew postgres
+  $ brew install postgres
   ```
 
 2. Configure postgres to start when the system does.
