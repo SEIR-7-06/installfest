@@ -34,11 +34,11 @@ Nodemon (short for "node monitor") will make our Node.js workflow more efficient
 
 ### jshint
 
-It's time to install another Sublime Text package!
+It's time to install another Sublime Text package!  This one helps you spot errors in your javascript code.
 
-1. From the command palette in Sublime Text (`cmd + shift + p`), select `Package Control: Install Package` to bring up the list of available packages. Select `SublimeLinter` from the list, and Package Control will install it for you.
-2. Repeat the step above to install the package `SublimeLinter-jshint`.
-3. Now Sublime Text 3 has the packages we need, but we also need to install the linter program, `jshint`. In the Terminal, run `sudo npm install -g jshint` to install jshint globally.
+1. First we need to install the linter program, `jshint`. In the Terminal, run `npm install -g jshint` to install jshint globally.
+2. From the command palette in Sublime Text (`cmd + shift + p`), select `Package Control: Install Package` to bring up the list of available packages. Select `SublimeLinter` from the list, and Package Control will install it for you.
+3. Repeat the step above to install the package `SublimeLinter-jshint`.
 
 ## MongoDB
 
