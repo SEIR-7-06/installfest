@@ -4,7 +4,7 @@
 
 If you don't already have an account for the Mac App Store, follow the instructions on Apple Support to <a href="https://support.apple.com/kb/PH11499?locale=en_US" target="_blank">create a Mac App Store account</a>.
 
-Before class starts, we suggest you upgrade your operating system to OS X Maverick or Yosemite. We don't recommend you use El Capitan *yet*, because some of the tools we use have not been updated for El Capitan. **Do not upgrade your operating system during WDI.**
+Before class starts, we suggest you upgrade your operating system to OS X Mavericks (10.9), Yosemite (10.10) or El Capitan (10.11).  If you're on an older machine with 4GB or less of memory, please stick to OS X Mavericks.  Also, if Apple releases a newer version of OS X while you're in WDI; please don't update until your instructors say it's ok.
 
 To check what version of OS X you're running:
 
@@ -12,7 +12,7 @@ To check what version of OS X you're running:
 2. Select "About This Mac" from the dropdown menu.
 3. Read the version information from the window that pops up.
 
-If you are not using Maverick (10.9) or Yosemite (10.10), detailed instructions for upgrading your operating system are available through Apple support: <a href="https://www.apple.com/support/osx/upgrade" target="_blank">How to upgrade to OS X Yosemite</a>.
+If you are not using Mavericks (10.9) Yosemite (10.10) or El Capitan (10.11), detailed instructions for upgrading your operating system are available through Apple support: <a href="https://www.apple.com/support/osx/upgrade" target="_blank">How to upgrade to OS X Yosemite</a>.
 
 ### Install Command Line Tools from the Terminal
 
@@ -22,7 +22,7 @@ If you are not using Maverick (10.9) or Yosemite (10.10), detailed instructions 
 
 ### Install Command Line Tools through Xcode (Older Versions of OS X)
 
-**Only follow these steps if you were not able to install Xcode Command Line Tools with the instructions above.** If you must run a version of OS X before Maverick, you will need to install Command Line Tools that come from Xcode.
+**Only follow these steps if you were not able to install Xcode Command Line Tools with the instructions above.** If you must run a version of OS X before Mavericks, you will need to install Command Line Tools that come from Xcode.
 
 1. Open the Mac App Store and install Xcode.
 2. Open Xcode.
@@ -47,9 +47,9 @@ __Note:  when copying the code snippets, please exclude the `$` as you paste and
 
 3. Run `brew update` to update Homebrew.
 
-4. Run `brew doctor` in your Terminal to check that Homebrew and any current packages are installed correctly. If there are issues, `brew doctor` will list suggestions for how to fix them.  Follow these suggestions one by one. If you're not sure what to do, ask!
+4. Run `brew doctor` in your Terminal to check that Homebrew and any current packages are installed correctly. If there are issues, `brew doctor` will list suggestions for how to fix them.  Follow these suggestions one by one. If you're not sure what to do, **ask!**
 
-5. You may need to edit your `~/.bash_profile` to include the path to Homebrew if `brew doctor` shows warnings.  If in doubt ask for help here.
+5. Based on the errors in the step above, you may need to edit your `~/.bash_profile` to include the path to Homebrew if `brew doctor` shows warnings.  If in doubt ask for help here.
 
 	```bash
 	$ bash echo 'export PATH="/usr/local/bin:/usr/local/sbin:~/bin:$PATH"' >> ~/.bash_profile
