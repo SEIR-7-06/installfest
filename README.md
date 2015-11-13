@@ -11,3 +11,5 @@ The technologies to install fall into three categories, so we have three sets of
 *In this context, "stack" refers to a group of technologies used together to create a web app.*
 
 If you are unsure what to do or run into problems during installation, don't worry! It happens to every web developer at some point. Read any error messages, recheck the instructions, and ask for help.
+
+![ready to code like a boss](http://learnhtmlwithsong.com/blog/wp-content/uploads/2012/11/text-editor-learn-html-success-kid.jpg)
