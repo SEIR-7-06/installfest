@@ -77,4 +77,4 @@ Ruby packages are referred to as "gems".
 Postico is a GUI tool to view the contents of your Postgres database.  
 
 1. Go to [https://eggerapps.at/postico/](https://eggerapps.at/postico/) and download the free version.
-2. Install it!
+2. Install it by unzipping the downloaded zip and then dragging `Postico.app` into your `Applications` directory.
