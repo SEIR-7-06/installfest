@@ -74,3 +74,10 @@ MonogDB is a database that stores information as easy to read "documents". We'll
   $ which mongod
   $ which mongo
   ```
+
+## RoboMongo
+
+RoboMongo is a GUI (Graphical User Interface) tool to let us see the data in our Mongo databases.  Let's install that now.
+
+1. Go to [https://robomongo.org/download](https://robomongo.org/download) and download the free (community) edition.
+2. Install it!
