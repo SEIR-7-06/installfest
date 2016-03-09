@@ -100,20 +100,19 @@ Configuring your git settings will help GitHub track your contributions and to m
 3. Follow the installation instructions.
 4. Open the Atom application.
 
-<!--
 ### Add Packages
 
-1. Let's install our first package, Emmet. From the command palette (`cmd + shift + p`), select `Package Control: Install Package` to bring up the list of available packages.
-2. Select `Emmet` from the list, and Package Control will install it for you! (Start typing "Emmet" in the search bar to narrow down the list.)
+Let's install our first package, Emmet.  We can install Atom packages in the Atom settings menu, or via the command-line.  Since we're learning to be awesome developers now, let's use the command-line!  
 
-The other package we'll to add, `jshint`, requires Node.js, so we'll get to it in the next set of installation instructions.
+1. In your terminal run: `apm install emmet-simplified`
 
--->
+The other package we'll add, `jshint`, requires Node.js, so we'll get to it in the next set of installation instructions.
+
 ### Configure Git to Use Atom
 
 When you forget to enter a commit message in the Terminal, git opens a text editor and reminds you to add a commit message.
 
-1. Run the following command in the Terminal to configure git to open Sublime Text instead of the default text editor:
+1. Run the following command in the Terminal to configure git to open Atom instead of the default text editor:
 
 	```bash
 	$ git config --global core.editor "atom -w"
