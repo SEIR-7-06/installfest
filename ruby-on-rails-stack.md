@@ -72,6 +72,12 @@ Ruby packages are referred to as "gems".
     $ which psql
     ```
 
+## Ruby linter
+Let's install one more Atom package; this time it's a linter for ruby code.
+
+1. In the terminal run `apm install linter-ruby`
+
+
 ### Postico
 
 Postico is a GUI tool to view the contents of your Postgres database.  
