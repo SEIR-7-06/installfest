@@ -122,3 +122,26 @@ When you forget to enter a commit message in the Terminal, git opens a text edit
 ## Chrome
 
 1. If you don't already have it, <a href="https://support.google.com/chrome/answer/95346?hl=en" target="_blank">download and install the Chrome web browser</a>.
+
+
+## Window management
+
+While programming it's pretty common to need to place two or three windows next to each other.  We'll install a program that gives us shortcut keys to do this.  
+This step is optional.
+
+1. Download https://raw.github.com/onsi/ShiftIt/master/ShiftIt.zip
+2. Extract it and drag the application into your `Applications` directory.
+3. Double-click the ShiftIt icon in `Applications` and follow the instructions to enable the accessibility options.
+
+ShiftIt offers a few shortcut keys like:
+* Move window to the left-half: Command+Option+Control+LeftArrow
+* Move window to the right-half: Command+Option+Control+RightArrow
+* **M**aximize a window: Command+Option+Control+**M**
+
+You can try this now.
+
+### Shortcut keys
+
+By the way, developers LOVE shortcut key combinations.  All of the shortcut keys listed above have special abbreviations.  If you have time later, you can read about those abbreviations and some shortcut key combinations [here](https://support.apple.com/en-us/HT201236Â).  You should now see the shiftIt icon in your menu-bar. (at the top)
+
+![](https://m.popkey.co/80a186/wqdmb.gif)
