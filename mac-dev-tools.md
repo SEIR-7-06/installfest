@@ -132,3 +132,16 @@ This step is optional.
 1. Download https://raw.github.com/onsi/ShiftIt/master/ShiftIt.zip
 2. Extract it and drag the application into your `Applications` directory.
 3. Double-click the ShiftIt icon in `Applications` and follow the instructions to enable the accessibility options.
+
+ShiftIt offers a few shortcut keys like:
+* Move window to the left-half: Command+Option+Control+LeftArrow
+* Move window to the right-half: Command+Option+Control+RightArrow
+* **M**aximize a window: Command+Option+Control+**M**
+
+You can try this now.
+
+### Shortcut keys
+
+By the way, developers LOVE shortcut key combinations.  All of the shortcut keys listed above have special abbreviations.  If you have time later, you can read about those abbreviations and some shortcut key combinations [here](https://support.apple.com/en-us/HT201236Â).  You should now see the shiftIt icon in your menu-bar. (at the top)
+
+![](https://m.popkey.co/80a186/wqdmb.gif)
