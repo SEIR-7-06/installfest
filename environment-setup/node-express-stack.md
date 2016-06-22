@@ -1,4 +1,4 @@
-# Installfest Step 2: Node.js & Express Stack
+# Installfest Step 1.1: Node.js & Express Stack
 
 Most of the coding work we do in weeks 3 to 5 will be driven by the back-end web development framework <a href="http://expressjs.com" target="_blank">Express</a>. We'll install Express individually in each project we create. For now, we'll install the other tools we'll use along with Express.
 
@@ -32,13 +32,20 @@ Nodemon (short for "node monitor") will make our Node.js workflow more efficient
   $  npm install -g nodemon
   ```
 
-### jshint
+
+<!-- TODO: move this section to editor setup page -->
+<!-- TODO: add sublime text instructions -->
+<!-- 
+### jshint (optional)
+
+
 
 It's time to install another Atom package!  This one helps you spot errors in your javascript code.
 
 1. First we need to install the linter program, `jshint`. In the Terminal, run `npm install -g jshint` to install jshint globally.
 2. Next we'll install a plugin for Atom so that it can display errors in our javascript code.  In the Terminal, run `apm install linter`
 3. Now run `apm install linter-jshint`
+-->
 
 ## MongoDB
 
@@ -81,3 +88,8 @@ RoboMongo is a GUI (Graphical User Interface) tool to let us see the data in our
 
 1. Go to [https://robomongo.org/download](https://robomongo.org/download) and download the free (community) edition.
 2. Install it!
+
+## Next Up
+* [x] Setup your Node.js environment
+* [ ] [Setup your Ruby environment](ruby-on-rails-stack.md)
+* [ ] Install Development Tools

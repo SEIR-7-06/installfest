@@ -6,12 +6,26 @@
 4. Open the Atom application.
 
 ### Add Packages
+Atom's core functionality can be extended using [thousands of third-party packages](https://atom.io/packages) that can help reduce your errors, and increase your productivity.
 
-Let's install our first package, Emmet.  We can install Atom packages in the Atom settings menu, or via the command-line.  Since we're learning to be awesome developers now, let's use the command-line!
+> We can install Atom packages in the Atom settings _menu_, or via the _command-line_.  Since we're learning to be awesome developers now, let's use the command-line!
 
-1. In your terminal run: `apm install emmet-simplified`
+We recommend you install the following packages. In your Terminal, run:
 
-The other package we'll add, `jshint`, requires Node.js, so we'll get to it in the next set of installation instructions.
+* `apm install emmet-simplified`
+
+#### Add Linters
+Now we're ready to install linting packages in Atom. Linting tools allow us to check for mistakes in our code and stick to programming language best practices.
+
+We recommend you install the following linters for Javascript and Ruby. In your Terminal, run:
+
+```bash
+apm install linter
+apm install linter-ruby
+
+npm install -g jshint # note this is a node package, not an atom package!
+apm install linter-jshint
+```
 
 ### Configure Git to Use Atom
 

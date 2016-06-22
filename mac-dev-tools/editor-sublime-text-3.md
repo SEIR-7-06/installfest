@@ -1,7 +1,7 @@
 ## Sublime Text Editor
 
 1. Use this link to <a href="http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%20Build%203083.dmg" target="_blank">download Sublime Text 3</a>.
-    * Sublime Text is FREE, as in _you don't need to pay for it_.
+    * Sublime Text 3 is FREE, as in _you don't need to pay for it_.
 2. Open the downloaded file.
 3. Follow the installation instructions (drag Sublime Text 3 to your Applications folder).
 4. Open the Sublime Text 3 application.
@@ -20,20 +20,30 @@ We encourage you to set your tab size to 2 spaces:
     ```
 
 ### Add Package Control
+Sublime Text 3's core functionality can be extended using [thousands of third-party packages](https://packagecontrol.io/) that can help reduce your errors, and increase your productivity.
 
-Sublime Text has its own package manager called Package Control. We'll use it to add extra features to Sublime Text, including a web development shortcut package called "Emmet" and a JavaScript syntax helper "jshint".
+To get started, we need to install `Package Control`:
 
-1. Follow <a href="https://packagecontrol.io/installation" target="_blank">Package Control's "simple installation" instructions</a> to add Package Control to Sublime Text. When you paste the large block of text, make sure you:
-    * use the Sublime Text 3 version, and
-    * enter the text into the bottom rectangle of the Sublime Text console.
+1. Follow <a href="https://packagecontrol.io/installation" target="_blank">Package Control's "simple installation" instructions</a> to add Package Control to Sublime Text 3. (When you paste the large block of text, make sure you enter the text into the bottom rectangle of the Sublime Text console).
 2. We access Package Control through the Sublime Text command palette. Open the palette by pressing `cmd + shift + p` within Sublime Text. Start typing "Package Control" in the command palette to see the list of things Package Control can do.
 
 ### Add Packages
+Now we're ready to install our first packages!
 
-1. Let's install our first package, Emmet. From the command palette (`cmd + shift + p`), select `Package Control: Install Package` to bring up the list of available packages.
-2. Select `Emmet` from the list, and Package Control will install it for you! (Start typing "Emmet" in the search bar to narrow down the list.)
+**Package Installation Instructions**: From the command palette (`cmd + shift + p`), select `Package Control: Install Package` to bring up the list of available packages. Simply select/highlight the name of the package to install it (or type the name to search for it)!
 
-The other package we'll to add, `jshint`, requires Node.js, so we'll get to it in the next set of installation instructions.
+Using the above installation process, we recommend you install the following packages:
+
+* [`Emmet`](https://packagecontrol.io/packages/Emmet)
+
+#### Add Linters
+Now we're ready to install linting packages in Sublime Text 3. Linting tools allow us to check for mistakes in our code and stick to programming language best practices.
+
+We recommend you install the following linters for Javascript and Ruby (using the same package installation instructions as above):
+
+* [`SublimeLinter`](https://packagecontrol.io/packages/SublimeLinter)
+    * [`SublimeLinter-jshint`](https://packagecontrol.io/packages/SublimeLinter-jshint)
+    * [`SublimeLinter-ruby`](https://packagecontrol.io/packages/SublimeLinter-ruby)
 
 ### Open Sublime from the Terminal
 

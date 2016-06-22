@@ -2,11 +2,14 @@
 
 We're going to install most of the tools we'll use in this course onto your computer today.
 
-The technologies to install fall into three categories, so we have three sets of instructions you should follow in order:
+Please follow the setup instructions in each of these guides:
 
-1. [Web Development Tools for Mac OS X](mac-dev-tools)
-2. [Tools for Node.js and Express Stack](node-express-stack.md)
-3. [Tools for Ruby on Rails Stack](ruby-on-rails-stack.md)
+1. Setup your **Development Environment**:
+    - [General Command Line Tools](environment-setup)
+    - [Node.js and Express Stack](environment-setup/node-express-stack.md)
+    - [Ruby on Rails Stack](environment-setup/ruby-on-rails-stack.md)
+2. Install **Development Tools & Applications**:
+    - [General Development Tools & Applications](mac-dev-tools)
 
 *In this context, "stack" refers to a group of technologies used together to create a web app.*
 
