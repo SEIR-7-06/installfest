@@ -34,6 +34,14 @@ You can try this now.
 
 ### A word on *Keyboard Shortcuts*
 
-By the way, developers LOVE shortcut key combinations.  All of the shortcut keys listed above have special abbreviations.  If you have time later, you can read about those abbreviations and some shortcut key combinations [here](https://support.apple.com/en-us/HT201236Â).  You should now see the shiftIt icon in your menu-bar. (at the top)
+By the way, developers LOVE shortcut key combinations. The more shortcuts you know, the faster you can code!
+
+For starters, you should know how to `copy`, `paste`, and `cut`. But there are tons more [Mac Shortcuts](https://duckduckgo.com/?q=mac+keyboard+shortcuts&ia=cheatsheet&iax=1) you should learn [how to read](https://support.apple.com/en-us/HT201236) and use!
+
+Every single application above has its own list of shortcuts too! One way to learn them is to go through the menu bar and look at each dropdown option. 
+
+Another option is to simply google ["sublime text 3 cheatsheet"](https://www.google.com/search?q=sublime+text+3+cheatsheet&tbm=isch) or ["atom cheatsheet"](https://www.google.com/search?tbm=isch&q=atom+cheat+sheet). Try it!
+
+The best way to learn keyboard shortcuts is to _STOP USING YOUR MOUSE_. Cover it with a piece of paper! Tape a list of shortcuts next to your screen!
 
 ![](https://m.popkey.co/80a186/wqdmb.gif)

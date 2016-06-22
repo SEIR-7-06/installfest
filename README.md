@@ -9,7 +9,10 @@ Please follow the setup instructions in each of these guides:
     - [Node.js and Express Stack](environment-setup/node-express-stack.md)
     - [Ruby on Rails Stack](environment-setup/ruby-on-rails-stack.md)
 2. Install **Development Tools & Applications**:
-    - [General Development Tools & Applications](mac-dev-tools)
+    - [Text Editor](mac-dev-tools/README.md#text-editor)
+    - [Browser](mac-dev-tools/README.md#browser)
+    - [Window Manager](mac-dev-tools/README.md#window-manager)
+    - [Learn Keyboard Shortcuts](mac-dev-tools/README.md#a-word-on-keyboard-shortcuts)
 
 *In this context, "stack" refers to a group of technologies used together to create a web app.*
 
