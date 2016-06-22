@@ -5,8 +5,7 @@ Most of the coding work we do in weeks 3 to 5 will be driven by the back-end web
 #### Plan Overview
 
 1. Install Node.js, a platform for back-end web development with the JavaScript programming language.
-2. Install jshint and its Atom packages to get realtime JavaScript syntax hints.
-3. Install MongoDB, the database we'll use with our Node.js and Express stack.
+1. Install MongoDB, the database we'll use with our Node.js and Express stack.
 
 ## Node.js
 
@@ -32,20 +31,6 @@ Nodemon (short for "node monitor") will make our Node.js workflow more efficient
   $  npm install -g nodemon
   ```
 
-
-<!-- TODO: move this section to editor setup page -->
-<!-- TODO: add sublime text instructions -->
-<!-- 
-### jshint (optional)
-
-
-
-It's time to install another Atom package!  This one helps you spot errors in your javascript code.
-
-1. First we need to install the linter program, `jshint`. In the Terminal, run `npm install -g jshint` to install jshint globally.
-2. Next we'll install a plugin for Atom so that it can display errors in our javascript code.  In the Terminal, run `apm install linter`
-3. Now run `apm install linter-jshint`
--->
 
 ## MongoDB
 
