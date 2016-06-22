@@ -4,7 +4,7 @@ We're going to install most of the tools we'll use in this course onto your comp
 
 The technologies to install fall into three categories, so we have three sets of instructions you should follow in order:
 
-1. [Web Development Tools for Mac OS X](mac-dev-tools.md)
+1. [Web Development Tools for Mac OS X](mac-dev-tools)
 2. [Tools for Node.js and Express Stack](node-express-stack.md)
 3. [Tools for Ruby on Rails Stack](ruby-on-rails-stack.md)
 
