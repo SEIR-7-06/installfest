@@ -114,10 +114,10 @@ Our class will be using Chrome as our preferred browser. Please follow the insta
 While programming it's pretty common to need to juggle the placement of multiple windows. To speed up this process, we'll install a program that does this for us (and gives us a bunch of convenient keyboard shortcuts).
 
 1. Download https://raw.github.com/onsi/ShiftIt/master/ShiftIt.zip
-2. Extract it and drag the application into your `Applications` directory.
-3. Double-click the ShiftIt icon in `Applications` and follow the instructions to enable the accessibility options.
+    * Next, extract it and drag the application icon into your `Applications` directory.
+    * Finally, launch the app by double-clicking the ShiftIt icon and follow the instructions to enable the accessibility options.
 
-ShiftIt offers a few shortcut keys like:
+2. We recommend you familiarze yourself with ShiftIt commands and keyboard shortcuts, like:
 * Move window to the left-half: Command+Option+Control+LeftArrow
 * Move window to the right-half: Command+Option+Control+RightArrow
 * **M**aximize a window: Command+Option+Control+**M**
