@@ -2,19 +2,20 @@
 
 ## Text Editor
 
-Our class will be using [Atom/Sublime](#TODO-PICK-ONE) as our preferred text editor. Please follow the installation instructions here:
+Our class will be using [Atom/Sublime](#TODO-PICK-ONE) as our preferred text editor. Please follow the installation instructions for:
 <!-- TODO: PICK ONE -->
 * [Atom](editor-atom.md)
-* [Sublime Text](editor-sublime-text-3.md)
+* [Sublime Text 3](editor-sublime-text-3.md)
 
 ## Browser
-Our class will be using Chrome as our preferred browser. Please follow the installation instructions here:
+Our class will be using Chrome as our preferred browser. If you don't already have it, please follow the installation instructions for:
 
-1. <a href="https://support.google.com/chrome/answer/95346?hl=en" target="_blank">Download and install the Chrome web browser</a> (if you don't already have it!)
+* [Chrome](https://support.google.com/chrome/answer/95346?hl=en)
 
-2. We also recommend you install the following Chrome Extensions:
-    * <a href="https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc" target="_blank">JSON View</a>
-    * <a href="http://www.getpostman.com/" target="_blank">Postman</a>
+We also recommend you install the following Chrome Extensions:
+
+* <a href="https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc" target="_blank">JSON View</a>
+* <a href="http://www.getpostman.com/" target="_blank">Postman</a>
 
 ## Window Manager
 
