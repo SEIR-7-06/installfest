@@ -100,15 +100,18 @@ Our class will be using [Atom/Sublime](#TODO-PICK-ONE) as our preferred text edi
 * [Atom](editor-atom.md)
 * [Sublime Text](editor-sublime-text-3.md)
 
-## Chrome
+## Browser
+Our class will be using Chrome as our preferred browser. Please follow the installation instructions here:
 
-1. If you don't already have it, <a href="https://support.google.com/chrome/answer/95346?hl=en" target="_blank">download and install the Chrome web browser</a>.
+1. <a href="https://support.google.com/chrome/answer/95346?hl=en" target="_blank">Download and install the Chrome web browser</a> (if you don't already have it!)
 
+2. We also recommend you install the following Chrome Extensions:
+    * <a href="https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc" target="_blank">JSON View</a>
+    * <a href="http://www.getpostman.com/" target="_blank">Postman</a>
 
-## Window management
+## Window Management
 
-While programming it's pretty common to need to place two or three windows next to each other.  We'll install a program that gives us shortcut keys to do this.  
-This step is optional.
+While programming it's pretty common to need to juggle the placement of multiple windows. To speed up this process, we'll install a program that does this for us (and gives us a bunch of convenient keyboard shortcuts).
 
 1. Download https://raw.github.com/onsi/ShiftIt/master/ShiftIt.zip
 2. Extract it and drag the application into your `Applications` directory.
@@ -121,7 +124,7 @@ ShiftIt offers a few shortcut keys like:
 
 You can try this now.
 
-### Shortcut keys
+### Shortcut keys (Encouraged)
 
 By the way, developers LOVE shortcut key combinations.  All of the shortcut keys listed above have special abbreviations.  If you have time later, you can read about those abbreviations and some shortcut key combinations [here](https://support.apple.com/en-us/HT201236Â).  You should now see the shiftIt icon in your menu-bar. (at the top)
 
