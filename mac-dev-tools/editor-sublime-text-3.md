@@ -1,9 +1,23 @@
 ## Sublime Text Editor
 
 1. Use this link to <a href="http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%20Build%203083.dmg" target="_blank">download Sublime Text 3</a>.
+    * Sublime Text is FREE, as in _you don't need to pay for it_.
 2. Open the downloaded file.
 3. Follow the installation instructions (drag Sublime Text 3 to your Applications folder).
 4. Open the Sublime Text 3 application.
+
+### Configure Tab Size
+We encourage you to set your tab size to 2 spaces:
+
+1. In the menu bar, click: `Sublime Text 3` > `Preferences` > `Settings - User`
+2. Replace the existing text with the following configuration options:
+
+    ```json
+    {
+        "tab_size": 2,
+        "translate_tabs_to_spaces": true
+    }
+    ```
 
 ### Add Package Control
 
