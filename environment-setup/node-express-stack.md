@@ -67,6 +67,8 @@ MonogDB is a database that stores information as easy to read "documents". We'll
   $ which mongo
   ```
 
+  If this has worked correctly, you will see `/usr/local/bin/mongod` and `/usr/local/bin/mongo` respectively as the outputs from terminal.
+
 ## RoboMongo
 
 RoboMongo is a GUI (Graphical User Interface) tool to let us see the data in our Mongo databases.  Let's install that now.
