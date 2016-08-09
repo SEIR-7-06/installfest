@@ -10,11 +10,17 @@ Atom's core functionality can be extended using [thousands of third-party packag
 
 > We can install Atom packages in the Atom settings _menu_, or via the _command-line_.  Since we're learning to be awesome developers now, let's use the command-line!
 
+<!--
+WDI 31 decided against adding these linters
+We'd prefer students to look at console error messages from the start.
+
 We recommend you install the following packages. In your Terminal, run:
 
 * `apm install emmet-simplified`
 
-#### Add Linters
+
+
+ #### Add Linters
 Now we're ready to install linting packages in Atom. Linting tools allow us to check for mistakes in our code and stick to programming language best practices.
 
 We recommend you install the following linters for Javascript and Ruby. In your Terminal, run:
@@ -25,7 +31,7 @@ apm install linter-ruby
 
 npm install -g jshint # note this is a node package, not an atom package!
 apm install linter-jshint
-```
+``` -->
 
 ### Configure Git to Use Atom
 
