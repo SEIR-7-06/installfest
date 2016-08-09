@@ -28,6 +28,8 @@ __Note:  when copying the code snippets, please exclude the `$` as you paste and
   $ \curl -L https://get.rvm.io | bash -s stable --ruby --auto-dotfiles
   ```
 
+  This installation could take a few minutes, so don't panic if it's slow.
+
 2. Close your terminal and open a new one now.
 
 3. Run
