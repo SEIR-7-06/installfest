@@ -72,6 +72,8 @@ Ruby packages are referred to as "gems".
     $ which psql
     ```
 
+    If it worked, you should see ```/usr/local/bin/psql``` as the terminal output.
+
 
 ### Postico
 
