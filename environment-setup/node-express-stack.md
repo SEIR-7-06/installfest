@@ -59,7 +59,8 @@ MonogDB is a database that stores information as easy to read "documents". We'll
   *Sidenote:
   When you use this  `sudo` command, you are saying "superuser do" which can force your computer to perform the command you entered, even if it's a bad idea. This is why you're prompted to insert a password. Terminal makes sure your computer is secure and that you're sure about the command you're about to execute forcefully.*
 
-  ![relevant XKCD](https://cloud.githubusercontent.com/assets/6520345/17527880/f458616c-5e21-11e6-9156-4db012c5efc7.png)
+  ![relevant xkcd](https://cloud.githubusercontent.com/assets/6520345/17527880/f458616c-5e21-11e6-9156-4db012c5efc7.png)
+  [Source: xkcd](https://xkcd.com/149/)
 
 4. Finally we'll want to make sure we have permission to read and write to this directory.
 
