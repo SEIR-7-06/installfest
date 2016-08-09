@@ -19,31 +19,6 @@ We encourage you to set your tab size to 2 spaces:
     }
     ```
 
-### Add Package Control
-Sublime Text 3's core functionality can be extended using [thousands of third-party packages](https://packagecontrol.io/) that can help reduce your errors, and increase your productivity.
-
-To get started, we need to install `Package Control`:
-
-1. Follow <a href="https://packagecontrol.io/installation" target="_blank">Package Control's "simple installation" instructions</a> to add Package Control to Sublime Text 3. (When you paste the large block of text, make sure you enter the text into the bottom rectangle of the Sublime Text console).
-2. We access Package Control through the Sublime Text command palette. Open the palette by pressing `cmd + shift + p` within Sublime Text. Start typing "Package Control" in the command palette to see the list of things Package Control can do.
-
-### Add Packages
-Now we're ready to install our first packages!
-
-**Package Installation Instructions**: From the command palette (`cmd + shift + p`), select `Package Control: Install Package` to bring up the list of available packages. Simply select/highlight the name of the package to install it (or type the name to search for it)!
-
-Using the above installation process, we recommend you install the following packages:
-
-* [`Emmet`](https://packagecontrol.io/packages/Emmet)
-
-#### Add Linters
-Now we're ready to install linting packages in Sublime Text 3. Linting tools allow us to check for mistakes in our code and stick to programming language best practices.
-
-We recommend you install the following linters for Javascript and Ruby (using the same package installation instructions as above):
-
-* [`SublimeLinter`](https://packagecontrol.io/packages/SublimeLinter)
-    * [`SublimeLinter-jshint`](https://packagecontrol.io/packages/SublimeLinter-jshint)
-    * [`SublimeLinter-ruby`](https://packagecontrol.io/packages/SublimeLinter-ruby)
 
 ### Open Sublime from the Terminal
 
