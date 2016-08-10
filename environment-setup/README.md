@@ -70,7 +70,7 @@ It will tell you that this command is not found or it just won't do anything. Th
 
 7. Now run the Terminal command `tree` to see a tree view of all the files inside your current directory!
 
-8. On to our second package with Homebrew `trash`, a simple command-line program that moves files or folders into your trash bin. This tool does not permanently delete files or folders, but rather moves them to our trash bin until we decided to empty. Now install it with this command: 
+8. `trash` is another Homebrew package that easily allows one to move files or folders into the trash bin from the terminal. This is good practice because [other commands](http://docstore.mik.ua/orelly/unix3/upt/ch14_03.htm) may be more dangerious. Again, the `trash` tool does not permanently delete files or folders, but simply places them in the trash. Let's install it using homebrew with the command: 
 
     ```bash
     $ brew install trash
@@ -81,12 +81,16 @@ It will tell you that this command is not found or it just won't do anything. Th
     ```bash
     $ touch new-trash-file.txt
     $ ls
+    ```
+    
+    You should see the newly created file.
+    
+    ```
     $ trash new-trash-file.txt
     $ ls
     ```
     
-    You should have seen the file `new-trash-file.txt` after we created it with the touch command and ls. After we used `trash` you should have noticed that it was then gone. If you check your trash bin by opening it up, you should see our file in there. 
-
+    Now it's moved to the trash bin! 
 
 
 ## Git
