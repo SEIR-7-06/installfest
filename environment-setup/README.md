@@ -121,6 +121,16 @@ Configuring your git settings will help GitHub track your contributions and to m
 
 2. Generate a SSH key for GitHub by <a href="https://help.github.com/articles/generating-ssh-keys" target="_blank">following GitHub's instructions</a>. This will allow you to use GitHub from your Terminal without entering your login information every time you push.
 
+Clarifying notes for the GitHub's instruction that might be confusing:
+
+1. When you are "Adding a new SSH key to your GitHub Account" the command: 
+
+	```bash
+	$ pbcopy < ~/.ssh/id_rsa.pub
+	```
+	
+	Will take your SSH key that was saved to the file id_rsa.pub and copy it to your clipboard (similar to using your quick keys cmd C but with the command line).
+
 
 ## Next Up
 * [ ] [Setup your Node.js environment](node-express-stack.md)
