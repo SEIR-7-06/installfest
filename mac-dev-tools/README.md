@@ -23,7 +23,7 @@ While programming it's pretty common to need to juggle the placement of multiple
 
 1. Download https://raw.github.com/onsi/ShiftIt/master/ShiftIt.zip
     * Next, extract it and drag the application icon into your `Applications` directory.
-    * Finally, launch the app by double-clicking the ShiftIt icon and follow the instructions to enable the accessibility options.
+    * Finally, launch the app by right-clicking on the ShiftIt icon and click open, follow the instructions to enable the accessibility options.
 
 2. We recommend you familiarze yourself with ShiftIt commands and keyboard shortcuts, like:
 * Move window to the left-half: Command+Option+Control+LeftArrow
