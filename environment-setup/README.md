@@ -76,7 +76,7 @@ It will tell you that this command is not found or it just won't do anything. Th
     $ brew install trash
     ```
     
-We can test this by creating a file and moving our dummy file into our trash bin. Run these lines in your terminal to see the power of `trash`:
+    We can test this by creating a file and moving our dummy file into our trash bin. Run these lines in your terminal to see the power of `trash`:
 
     ```bash
     $ touch new-trash-file.txt
@@ -85,7 +85,7 @@ We can test this by creating a file and moving our dummy file into our trash bin
     $ ls
     ```
     
-You should have seen the file `new-trash-file.txt` after we created it with the touch command and ls. After we used `trash` you should have noticed that it was then gone. If you check your trash bin by opening it up, you should see our file in there. 
+    You should have seen the file `new-trash-file.txt` after we created it with the touch command and ls. After we used `trash` you should have noticed that it was then gone. If you check your trash bin by opening it up, you should see our file in there. 
 
 
 
