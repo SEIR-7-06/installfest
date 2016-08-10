@@ -91,6 +91,18 @@ It will tell you that this command is not found or it just won't do anything. Th
     ```
     
     Now it's moved to the trash bin! 
+    
+## Styling
+
+If you haven't done anything to personalize the terminal yet that's fine, but it will probably look a little boring (and hard to read). We recommend adding some styles to the bash shell. [Solarized](http://ethanschoonover.com/solarized) is a great theme for this purpose.
+
+1. [Download](http://ethanschoonover.com/solarized/files/solarized.zip) the zip file of all the themes.
+2. Unzip it by double-clicking
+3. Open your the Terminal Application and navigate to `Terminal` -> `Preferences`. In the bottom left hand corner, find the icon that looks like a cog/gear and select `Import...`.
+4. Navigate to the unzipped solarized directory and navigate into the sub-directory `osx-terminal.app-colors-solarized` and select `Solarized Dark ansi.terminal`.
+5. Finally, click the button `Default` next to the cog/gear icon, which will set this to your default theme.
+
+Try opening up a new window for the Terminal and ensure the color scheme has been updated.
 
 
 ## Git
