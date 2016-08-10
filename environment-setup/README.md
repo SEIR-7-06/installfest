@@ -92,7 +92,7 @@ It will tell you that this command is not found or it just won't do anything. Th
     
     Now it's moved to the trash bin! 
     
-## Styling
+## Customization
 
 If you haven't done anything to personalize the terminal yet that's fine, but it will probably look a little boring (and hard to read). We recommend adding some styles to the bash shell. [Solarized](http://ethanschoonover.com/solarized) is a great theme for this purpose.
 
@@ -103,6 +103,14 @@ If you haven't done anything to personalize the terminal yet that's fine, but it
 5. Finally, click the button `Default` next to the cog/gear icon, which will set this to your default theme.
 
 Try opening up a new window for the Terminal and ensure the color scheme has been updated.
+
+Let's also change a setting in the Terminal, which will allow us to move through and delete entire words at a time by holding down the `option` key. This the default behavior of most text editors and will allow us to make more productive edits to our bash commands.
+
+1. Navigate back to `Terminal` -> `Preferences`.
+2. Navigate to the the sub-tab, `Keyboard`
+3. Check the input, at the bottom, that displays "Use Option as Meta key".
+
+Try typing something in the Terminal then using the arrows to navigate through the text; now hold the `option` key at the same time to see the cursor jump from one word to the next.
 
 
 ## Git
@@ -131,37 +139,17 @@ Configuring your git settings will help GitHub track your contributions and to m
     $ git config --global credential.helper cache
     ```
 
-2. Generate a SSH key for GitHub by <a href="https://help.github.com/articles/generating-ssh-keys" target="_blank">following GitHub's instructions</a>. This will allow you to use GitHub from your Terminal without entering your login information every time you push. If you need some clarification about GitHub's instructions you can reference the notes below. The next set of instructions follow GitHub's flow: checking for an SSH key and generating one. 
+2. Generate a SSH key for GitHub by <a href="https://help.github.com/articles/generating-ssh-keys" target="_blank">following GitHub's instructions</a>. This will allow you to use GitHub from your Terminal without entering your login information every time you push.
 
-### Clarifying notes for GitHub's instruction(s):
+Clarifying notes for the GitHub's instruction that might be confusing:
 
-1. Checking to see if you already connected your computer with an SSH key.  
-
-	You will want to look for **_one_** of these file names in your terminal:
-	
-	```bash
-	$ id_dsa.pub
-	$ id_ecdsa.pub
-	$ id_ed25519.pub
-	$ id_rsa.pub
-	```
-	
-2. If you are not connected generate a new SSH key and follow the directions in the link above. **NOTE:** you will want to use the email that you used when you signed up for your github account. 
-	
-	After you copied:
-	
-	```bash
-	$ ssh-keygen -t rsa -b 4096 -C "YOUR-EMAIL@gmail.com"
-	```
-	Just hit enter to the next three prompts. This will default the installation location for github's key, and leave empty your passphrase.
-
-3. When you are "Adding a new SSH key to your GitHub Account" the command: 
+1. When you are "Adding a new SSH key to your GitHub Account" the command: 
 
 	```bash
 	$ pbcopy < ~/.ssh/id_rsa.pub
 	```
 	
-	Will take your SSH key that was saved to the file id_rsa.pub and copy it to your clipboard (similar to using your quick keys **cmd c** but with the command line).
+	Will take your SSH key that was saved to the file id_rsa.pub and copy it to your clipboard (similar to using your quick keys cmd C but with the command line).
 
 
 ## Next Up
