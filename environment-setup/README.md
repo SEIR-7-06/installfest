@@ -121,7 +121,7 @@ Configuring your git settings will help GitHub track your contributions and to m
 
 2. Generate a SSH key for GitHub by <a href="https://help.github.com/articles/generating-ssh-keys" target="_blank">following GitHub's instructions</a>. This will allow you to use GitHub from your Terminal without entering your login information every time you push.
 
-### Clarifying notes for the GitHub's instruction:
+### Clarifying notes for GitHub's instruction(s):
 
 1. Checking to see if you already connected your computer with an SSH key.  
 
