@@ -2,10 +2,7 @@
 
 ## Text Editor
 
-Our class will be using [Atom/Sublime](#TODO-PICK-ONE) as our preferred text editor. Please follow the installation instructions for:
-<!-- TODO: PICK ONE -->
-* [Atom](editor-atom.md)
-* [Sublime Text 3](editor-sublime-text-3.md)
+Our class will be using [Atom](editor-atom.md) as our preferred text editor. However, feel free to use [Sublime Text 3](editor-sublime-text-3.md) as it is very similar.
 
 ## Browser
 Our class will be using Chrome as our preferred browser. If you don't already have it, please follow the installation instructions for:
@@ -23,7 +20,7 @@ While programming it's pretty common to need to juggle the placement of multiple
 
 1. Download https://raw.github.com/onsi/ShiftIt/master/ShiftIt.zip
     * Next, extract it and drag the application icon into your `Applications` directory.
-    * Finally, launch the app by double-clicking the ShiftIt icon and follow the instructions to enable the accessibility options.
+    * Finally, launch the app by right-clicking on the ShiftIt icon and click open, follow the instructions to enable the accessibility options.
 
 2. We recommend you familiarze yourself with ShiftIt commands and keyboard shortcuts, like:
 * Move window to the left-half: Command+Option+Control+LeftArrow

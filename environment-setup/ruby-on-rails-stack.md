@@ -28,6 +28,8 @@ __Note:  when copying the code snippets, please exclude the `$` as you paste and
   $ \curl -L https://get.rvm.io | bash -s stable --ruby --auto-dotfiles
   ```
 
+  This installation could take a few minutes, so don't panic if it's slow.
+
 2. Close your terminal and open a new one now.
 
 3. Run
@@ -72,13 +74,9 @@ Ruby packages are referred to as "gems".
     $ which psql
     ```
 
+    If it worked, you should see ```/usr/local/bin/psql``` as the terminal output.
 
-### Postico
 
-Postico is a GUI tool to view the contents of your Postgres database.  
-
-1. Go to [https://eggerapps.at/postico/](https://eggerapps.at/postico/) and download the free version.
-2. Install it by unzipping the downloaded zip and then dragging `Postico.app` into your `Applications` directory.
 
 ## Next Up
 * [x] Setup your Node.js environment

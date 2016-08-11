@@ -60,10 +60,71 @@ __Note:  when copying the code snippets, please exclude the `$` as you paste and
 6. Let's install our first package with Homebrew, `tree`!  This package adds a command to your Terminal that displays files in a tree view (instead of a list view like `ls`).  Enter the following command in your Terminal:
 
     ```bash
+    $ tree
+    ```
+It will tell you that this command is not found or it just won't do anything. This is because it's not a program (command) that's installed on your machine. Now install it with this command:
+
+    ```bash
     $ brew install tree
     ```
 
-7. Run the Terminal command `tree` to see a tree view of all the files inside your current directory!
+7. Now run the Terminal command `tree` to see a tree view of all the files inside your current directory!
+
+8. `trash` is another Homebrew package that easily allows one to move files or folders into the trash bin from the terminal. This is good practice because [other commands](http://docstore.mik.ua/orelly/unix3/upt/ch14_03.htm) may be more dangerious. Again, the `trash` tool does not permanently delete files or folders, but simply places them in the trash. Let's install it using homebrew with the command: 
+
+    ```bash
+    $ brew install trash
+    ```
+    
+    We can test this by creating a file and moving our dummy file into our trash bin. Run these lines in your terminal to see the power of `trash`:
+
+    ```bash
+    $ touch new-trash-file.txt
+    $ ls
+    ```
+    
+    You should see the newly created file.
+    
+    ```
+    $ trash new-trash-file.txt
+    $ ls
+    ```
+    
+    Now it's moved to the trash bin! 
+    
+## Customization
+
+### Styles
+
+If you haven't done anything to personalize the terminal yet that's fine, but it will probably look a little boring (and hard to read). We recommend adding some styles to the bash shell. [Solarized](http://ethanschoonover.com/solarized) is a great theme for this purpose.
+
+1. [Download](http://ethanschoonover.com/solarized/files/solarized.zip) the zip file of all the themes.
+2. Unzip it by double-clicking
+3. Open your the Terminal Application and navigate to `Terminal` -> `Preferences`. In the bottom left hand corner, find the icon that looks like a cog/gear and select `Import...`.
+4. Navigate to the unzipped solarized directory and navigate into the sub-directory `osx-terminal.app-colors-solarized` and select `Solarized Dark ansi.terminal`.
+5. Finally, click the button `Default` next to the cog/gear icon, which will set this to your default theme.
+
+Try opening up a new window for the Terminal and ensure the color scheme has been updated.
+
+### Option as Meta Key
+
+Let's change a setting in the Terminal that will allow us to move through and delete entire words at a time by holding down the `option` key. This the default behavior of most text editors and will allow us to make more productive edits to our bash commands.
+
+1. Navigate back to `Terminal` -> `Preferences`.
+2. Navigate to the the sub-tab, `Keyboard`
+3. Check the input, at the bottom, that displays "Use Option as Meta key".
+
+Try typing something in the Terminal then using the arrows to navigate through the text; now hold the `option` key at the same time to see the cursor jump from one word to the next.
+
+### Silent Clicking
+
+In more recent models of Apple computers, the trackpad produces an artifical "click" sound; however, we can turn this off.
+
+1. Navigate to `System Preferences` and click `Trackpad`.
+2. Navigate to the tab `Point & Click`.
+3. At the bottom, check the input that displays "Silent clicking".
+
+Ensure the trackpad no longer makes a noise when clicked.
 
 ## Git
 
@@ -92,6 +153,16 @@ Configuring your git settings will help GitHub track your contributions and to m
     ```
 
 2. Generate a SSH key for GitHub by <a href="https://help.github.com/articles/generating-ssh-keys" target="_blank">following GitHub's instructions</a>. This will allow you to use GitHub from your Terminal without entering your login information every time you push.
+
+Clarifying notes for the GitHub's instruction that might be confusing:
+
+1. When you are "Adding a new SSH key to your GitHub Account" the command: 
+
+	```bash
+	$ pbcopy < ~/.ssh/id_rsa.pub
+	```
+	
+	Will take your SSH key that was saved to the file id_rsa.pub and copy it to your clipboard (similar to using your quick keys cmd C but with the command line).
 
 
 ## Next Up
