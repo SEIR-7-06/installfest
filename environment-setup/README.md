@@ -24,7 +24,7 @@ If you are not using OS X Yosemite (10.10), OS X El Capitan (10.11), or macOS Si
 
 ### Install Command Line Tools through Xcode (Older Versions of OS X)
 
-**Only follow these steps if you were not able to install Xcode Command Line Tools with the instructions above.** If you must run a version of OS X before Mavericks, you will need to install Command Line Tools that come from Xcode.
+**Only follow these steps if you were not able to install Xcode Command Line Tools with the instructions above.** If you must run an older version of OS X, you will need to install Command Line Tools that come from Xcode.
 
 1. Open the Mac App Store and install Xcode.
 2. Open Xcode.
@@ -35,7 +35,7 @@ If you are not using OS X Yosemite (10.10), OS X El Capitan (10.11), or macOS Si
 
 __Note:  when copying the code snippets, please exclude the `$` as you paste and run the code into your terminal.  The dollar sign `$` is simply an indicator of the logged-in user in examples.__
 
-<a href="http://brew.sh" target="_blank">Homebrew</a> is a *package manager* for OS X. We'll use it to quickly download and install other tools we need, or to update already installed tools.
+<a href="http://brew.sh" target="_blank">Homebrew</a> is a *package manager* - it downloads and updates programs on your machine. We'll use it to quickly download and install other tools we need, or to update already installed tools.
 
 1. Open the Terminal application, and run `which brew` to check if you have Homebrew installed already. The `which` Terminal command shows where on your computer a program is installed. If it is installed, the Terminal will output a file path. If it is not installed, the Terminal won't output anything.
 
