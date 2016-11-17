@@ -4,15 +4,15 @@
 
 If you don't already have an account for the Mac App Store, follow the instructions on Apple Support to <a href="https://support.apple.com/kb/PH11499?locale=en_US" target="_blank">create a Mac App Store account</a>.
 
-Before class starts, we suggest you upgrade your operating system to OS X Mavericks (10.9), Yosemite (10.10) or El Capitan (10.11).  If you're on an older machine with 4GB or less of memory, please stick to OS X Mavericks.  Also, if Apple releases a newer version of OS X while you're in WDI; please don't update until your instructors say it's ok.
+Before class starts, we suggest you upgrade your operating system to OS X Yosemite (10.10), OS X El Capitan (10.11), or macOS Sierra.  If you're on an older machine with 4GB or less of memory, please stick to OS X Yosemite.  Also, if Apple releases a newer version of macOS while you're in WDI; please don't update until your instructors say it's ok.
 
-To check what version of OS X you're running:
+To check which operating system you're running:
 
 1. Click the apple icon in the top left of your computer screen.
 2. Select "About This Mac" from the dropdown menu.
 3. Read the version information from the window that pops up.
 
-If you are not using Mavericks (10.9), Yosemite (10.10), or El Capitan (10.11), detailed instructions for upgrading your operating system are available through Apple support: <a href="https://www.apple.com/support/osx/upgrade" target="_blank">How to upgrade to OS X Yosemite</a>.  
+If you are not using OS X Yosemite (10.10), OS X El Capitan (10.11), or macOS Sierra, detailed instructions for upgrading your operating system are available through Apple support: <a href="https://support.apple.com/macos" target="_blank">How to upgrade to macOS Sierra</a>.  
 
 > Please let an instructor know if you're using an older version of OS X or if your system has less than 2 GB of memory.
 
@@ -70,28 +70,28 @@ It will tell you that this command is not found or it just won't do anything. Th
 
 7. Now run the Terminal command `tree` to see a tree view of all the files inside your current directory!
 
-8. `trash` is another Homebrew package that easily allows one to move files or folders into the trash bin from the terminal. This is good practice because [other commands](http://docstore.mik.ua/orelly/unix3/upt/ch14_03.htm) may be more dangerious. Again, the `trash` tool does not permanently delete files or folders, but simply places them in the trash. Let's install it using homebrew with the command: 
+8. `trash` is another Homebrew package that easily allows one to move files or folders into the trash bin from the terminal. This is good practice because [other commands](http://docstore.mik.ua/orelly/unix3/upt/ch14_03.htm) may be more dangerious. Again, the `trash` tool does not permanently delete files or folders, but simply places them in the trash. Let's install it using homebrew with the command:
 
     ```bash
     $ brew install trash
     ```
-    
+
     We can test this by creating a file and moving our dummy file into our trash bin. Run these lines in your terminal to see the power of `trash`:
 
     ```bash
     $ touch new-trash-file.txt
     $ ls
     ```
-    
+
     You should see the newly created file.
-    
+
     ```
     $ trash new-trash-file.txt
     $ ls
     ```
-    
-    Now it's moved to the trash bin! 
-    
+
+    Now it's moved to the trash bin!
+
 ## Customization
 
 ### Styles
@@ -156,12 +156,12 @@ Configuring your git settings will help GitHub track your contributions and to m
 
 Clarifying notes for the GitHub's instruction that might be confusing:
 
-1. When you are "Adding a new SSH key to your GitHub Account" the command: 
+1. When you are "Adding a new SSH key to your GitHub Account" the command:
 
 	```bash
 	$ pbcopy < ~/.ssh/id_rsa.pub
 	```
-	
+
 	Will take your SSH key that was saved to the file id_rsa.pub and copy it to your clipboard (similar to using your quick keys cmd C but with the command line).
 
 
