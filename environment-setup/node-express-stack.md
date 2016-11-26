@@ -86,6 +86,6 @@ RoboMongo is a GUI (Graphical User Interface) tool to let us see the data in our
 2. Install it!
 
 ## Next Up
-* [x] Setup your Node.js environment
-* [ ] [Setup your Ruby environment](ruby-on-rails-stack.md)
+* [x] Set up your Node.js environment
+* [ ] [Set up your Ruby environment](ruby-on-rails-stack.md)
 * [ ] Install Development Tools
