@@ -166,6 +166,6 @@ Clarifying notes for the GitHub's instruction that might be confusing:
 
 
 ## Next Up
-* [ ] [Setup your Node.js environment](node-express-stack.md)
-* [ ] Setup your Ruby environment
+* [ ] [Set up your Node.js environment](node-express-stack.md)
+* [ ] Set up your Ruby environment
 * [ ] Install Development Tools
