@@ -48,10 +48,11 @@ MonogDB is a database that stores information as easy to read "documents". We'll
   $ brew install mongodb
   ```
 
-3. Then we'll need a directory for **MongoDB** to save data.
+3. Then we'll need a directory for **MongoDB** to save data. Make sure you create this directory inside your root (`/`) directory.
 
   ```bash
-  $ sudo mkdir -p /data/db
+  $ cd /
+  $ sudo mkdir -p data/db
   ```
 
   You will be prompted to enter your system password here. This is the password you use to log into your computer.
@@ -65,7 +66,7 @@ MonogDB is a database that stores information as easy to read "documents". We'll
 4. Finally we'll want to make sure we have permission to read and write to this directory.
 
   ```bash
-  $ sudo chown -R $USER /data/db
+  $ sudo chown -R $USER data/db
   ```
   Again, you'll need to enter your system password.
 
@@ -86,6 +87,6 @@ RoboMongo is a GUI (Graphical User Interface) tool to let us see the data in our
 2. Install it!
 
 ## Next Up
-* [x] Setup your Node.js environment
-* [ ] [Setup your Ruby environment](ruby-on-rails-stack.md)
+* [x] Set up your Node.js environment
+* [ ] [Set up your Ruby environment](ruby-on-rails-stack.md)
 * [ ] Install Development Tools

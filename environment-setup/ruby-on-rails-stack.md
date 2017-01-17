@@ -79,6 +79,6 @@ Ruby packages are referred to as "gems".
 
 
 ## Next Up
-* [x] Setup your Node.js environment
-* [x] Setup your Ruby environment
+* [x] Set up your Node.js environment
+* [x] Set up your Ruby environment
 * [ ] [Install Development Tools](/mac-dev-tools)
