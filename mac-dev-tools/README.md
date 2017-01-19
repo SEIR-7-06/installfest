@@ -54,4 +54,5 @@ One of the best ways to learn keyboard shortcuts is to _STOP USING YOUR MOUSE_. 
 
 ## That's it!
 ![](http://i.giphy.com/3otPoS81loriI9sO8o.gif)
+
 Thanks for coming to InstallFest, and we're excited to see you next week! Feel free to stick around and finish up Fundamentals, or head out.
