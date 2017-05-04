@@ -130,7 +130,7 @@ Ensure the trackpad no longer makes a noise when clicked.
 
 ## Git
 
-You should already have git installed and have an account on GitHub from Fundamentals. If not, sign up for an account on <a href="http://www.github.com" target="_blank">github.com</a>. We'll be using GitHub to track code changes and collaborate on projects.
+You should already have git installed and have an account on GitHub from Fundamentals. If not, sign up for an account on [github.com](http://github.com). We'll be using GitHub to track code changes and collaborate on projects.
 
 ### Confirm Install
 
@@ -154,7 +154,7 @@ Configuring your git settings will help GitHub track your contributions and to m
     $ git config --global credential.helper cache
     ```
 
-2. Generate a SSH key for GitHub by <a href="https://help.github.com/articles/generating-ssh-keys" target="_blank">following GitHub's instructions</a>. This will allow you to use GitHub from your Terminal without entering your login information every time you push.
+2. Generate a SSH key for GitHub by [following GitHub's instructions](https://help.github.com/articles/generating-ssh-keys). This will allow you to use GitHub from your Terminal without entering your login information every time you push.
 
 Clarifying notes for the GitHub's instruction that might be confusing:
 

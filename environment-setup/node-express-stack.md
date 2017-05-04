@@ -1,6 +1,6 @@
 # Installfest Step 1.1: Node.js & Express Stack
 
-Most of the coding work we do in weeks 3 to 5 will be driven by the back-end web development framework <a href="http://expressjs.com" target="_blank">Express</a>. We'll install Express individually in each project we create. For now, we'll install the other tools we'll use along with Express.
+Most of the coding work we do in weeks 3 to 5 will be driven by the back-end web development framework [Express](http://expressjs.com). We'll install Express individually in each project we create. For now, we'll install the other tools we'll use along with Express.
 
 #### Plan Overview
 

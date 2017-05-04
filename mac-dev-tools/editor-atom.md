@@ -1,6 +1,6 @@
 ## Atom Text Editor
 
-1. Go <a href="https://atom.io/" target="_blank">here</a> and download Atom.
+1. Go [here](https://atom.io) to download Atom.
 2. Open the downloaded file.
 3. Follow the installation instructions.
 4. Open the Atom application.
