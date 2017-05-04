@@ -64,9 +64,9 @@ __Note:  when copying the code snippets, please exclude the `$` as you paste and
     ```
 It will tell you that this command is not found or it just won't do anything. This is because it's not a program (command) that's installed on your machine. Now install it with this command:
 
-    ```bash
-    $ brew install tree
-    ```
+  ```bash
+  $ brew install tree
+  ```
 
 7. Now run the Terminal command `tree` to see a tree view of all the files inside your current directory!
 
