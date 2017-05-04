@@ -11,8 +11,8 @@ Our class will be using Chrome as our preferred browser. If you don't already ha
 
 We also recommend you install the following Chrome Extensions:
 
-* <a href="https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc" target="_blank">JSON View</a>
-* <a href="http://www.getpostman.com/" target="_blank">Postman</a>
+* [JSON View](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc)
+* [Postman](http://www.getpostman.com/)
 
 ## Window Manager
 
