@@ -59,9 +59,9 @@ __Note:  when copying the code snippets, please exclude the `$` as you paste and
 
 6. Let's install our first package with Homebrew, `tree`!  This package adds a command to your Terminal that displays files in a tree view (instead of a list view like `ls`).  Enter the following command in your Terminal:
 
-    ```bash
-    $ tree
-    ```
+  ```bash
+  $ tree
+  ```
 It will tell you that this command is not found or it just won't do anything. This is because it's not a program (command) that's installed on your machine. Now install it with this command:
 
   ```bash
