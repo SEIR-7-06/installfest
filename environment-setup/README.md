@@ -2,7 +2,7 @@
 
 ## Operating System & Command Line Tools
 
-If you don't already have an account for the Mac App Store, follow the instructions on Apple Support to <a href="https://support.apple.com/kb/PH11499?locale=en_US" target="_blank">create a Mac App Store account</a>.
+If you don't already have an account for the Mac App Store, follow the instructions on Apple Support to [create a Mac App Store account](https://support.apple.com/kb/PH11499?locale=en_US).
 
 Before class starts, we suggest you upgrade your operating system to OS X Yosemite (10.10), OS X El Capitan (10.11), or macOS Sierra.  If you're on an older machine with 4GB or less of memory, please stick to OS X Yosemite.  Also, if Apple releases a newer version of macOS while you're in WDI; please don't update until your instructors say it's ok.
 
@@ -12,7 +12,7 @@ To check which operating system you're running:
 2. Select "About This Mac" from the dropdown menu.
 3. Read the version information from the window that pops up.
 
-If you are not using OS X Yosemite (10.10), OS X El Capitan (10.11), or macOS Sierra, detailed instructions for upgrading your operating system are available through Apple support: <a href="https://support.apple.com/macos" target="_blank">How to upgrade to macOS Sierra</a>.  
+If you are not using OS X Yosemite (10.10), OS X El Capitan (10.11), or macOS Sierra, detailed instructions for upgrading your operating system are available through Apple support: [How to upgrade to macOS Sierra](https://support.apple.com/macos)
 
 > Please let an instructor know if you're using an older version of OS X or if your system has less than 2 GB of memory.
 
@@ -35,7 +35,7 @@ If you are not using OS X Yosemite (10.10), OS X El Capitan (10.11), or macOS Si
 
 __Note:  when copying the code snippets, please exclude the `$` as you paste and run the code into your terminal.  The dollar sign `$` is simply an indicator of the logged-in user in examples.__
 
-<a href="http://brew.sh" target="_blank">Homebrew</a> is a *package manager* - it downloads and updates programs on your machine. We'll use it to quickly download and install other tools we need, or to update already installed tools.
+[Homebrew](http://brew.sh) is a *package manager* - it downloads and updates programs on your machine. We'll use it to quickly download and install other tools we need, or to update already installed tools.
 
 1. Open the Terminal application, and run `which brew` to check if you have Homebrew installed already. The `which` Terminal command shows where on your computer a program is installed. If it is installed, the Terminal will output a file path. If it is not installed, the Terminal won't output anything.
 
@@ -69,6 +69,8 @@ It will tell you that this command is not found or it just won't do anything. Th
     ```
 
 7. Now run the Terminal command `tree` to see a tree view of all the files inside your current directory!
+
+  >If you run `tree` from your root directory, it might be printing files for a LONG time! Remember that you can always use `ctrl + C` in the terminal to stop the currently running process.
 
 8. `trash` is another Homebrew package that easily allows one to move files or folders into the trash bin from the terminal. This is good practice because [other commands](http://docstore.mik.ua/orelly/unix3/upt/ch14_03.htm) may be more dangerious. Again, the `trash` tool does not permanently delete files or folders, but simply places them in the trash. Let's install it using homebrew with the command:
 
