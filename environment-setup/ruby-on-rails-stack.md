@@ -1,12 +1,12 @@
 # Installfest Step 1.2: Ruby on Rails Stack
 
-#### Plan Overview
+#### Here's the plan... (just an overview)
 
 1. Update your install of the Ruby programming language and install rvm to manage versions of Ruby.
 2. Install Rails, a back-end web development framework for the Ruby programming language.
 3. Install PostgreSQL, the database we'll use with our Ruby on Rails stack.
 
-## Check Previous Installs
+## Do you already have ruby, rails or rvm? If yes, make sure they're up to date.
 
 If you've already experimented with Ruby and/or Rails before, verify that your versions are correct for this upcoming class.
 
