@@ -10,6 +10,14 @@ Atom's core functionality can be extended using [thousands of third-party packag
 
 > We can install Atom packages in the Atom settings _menu_, or via the _command-line_.  Since we're learning to be awesome developers now, let's use the command-line!
 
+#### Add `open-in-browser`
+
+`open-in-browser` lets you quickly open your HTML files in the browser. Install it with: 
+
+`apm install open-in-browser`
+
+Restart Atom and then you'll be able to right click on a file and see the option to open in browser.
+
 <!--
 WDI 31 decided against adding these linters
 We'd prefer students to look at console error messages from the start.
