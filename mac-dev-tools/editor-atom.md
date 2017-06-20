@@ -12,9 +12,11 @@ Atom's core functionality can be extended using [thousands of third-party packag
 
 #### Add `open-in-browser`
 
-`open-in-browser` lets you quickly open your HTML files in the browser. Install it with: 
+The `open-in-browser` package lets you quickly open your HTML files in the browser. Install it with: 
 
-`apm install open-in-browser`
+```bash
+apm install open-in-browser
+```
 
 Restart Atom and then you'll be able to right click on a file and see the option to open in browser.
 
