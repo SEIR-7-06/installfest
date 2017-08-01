@@ -24,6 +24,8 @@ __Note:  when copying the code snippets, please exclude the `$` as you paste and
 
 1. Run the following command in your Terminal to install both RVM and the latest version of Ruby.
 
+ **Note for August 2017 cohort ONLY:** Due to a current bug in the RVM installer, you should NOT run the command below, and should instead run `\curl -sSL https://raw.githubusercontent.com/wayneeseguin/rvm/stable/binscripts/rvm-installer | sudo bash -s stable --ruby --auto-dotfiles`.
+ 
   ```bash
   $ curl -L https://get.rvm.io | bash -s stable --ruby --auto-dotfiles
   ```
