@@ -10,7 +10,7 @@
 
 If you've already experimented with Ruby and/or Rails before, verify that your versions are correct for this upcoming class.
 
-1. In your Terminal, run `ruby --version`. The output will include the version number of Ruby you have installed. **Verify you are running version 2.0+ of Ruby and that it does not say `universal.x86-64`**.  The `universal` build is the one that comes with OS X, we want to use a ruby version supplied by RVM.
+1. In your Terminal, run `ruby --version`. The output will include the version number of Ruby you have installed. **Verify you are running version 2.2+ of Ruby and that it does not say `universal.x86-64`**.  The `universal` build is the one that comes with OS X, we want to use a ruby version supplied by RVM.
 2. In your Terminal, run `rails --version`. **Verify you are running version 5 of Rails**.
 3. In your Terminal, run `rvm list`.  **Verify you have version 1.26.x or greater.**
 
@@ -25,7 +25,7 @@ __Note:  when copying the code snippets, please exclude the `$` as you paste and
 1. Run the following command in your Terminal to install both RVM and the latest version of Ruby.
 
  **Note for August 2017 cohort ONLY:** Due to a current bug in the RVM installer, you should NOT run the command below, and should instead run `\curl -sSL https://raw.githubusercontent.com/wayneeseguin/rvm/stable/binscripts/rvm-installer | bash -s stable --ruby --auto-dotfiles`.
- 
+
   ```bash
   $ curl -L https://get.rvm.io | bash -s stable --ruby --auto-dotfiles
   ```
