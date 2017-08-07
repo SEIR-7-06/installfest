@@ -30,7 +30,7 @@ While programming it's pretty common to need to juggle the placement of multiple
 You can try this now.
 
 ### Touch Typing
-You will be at a serious disadvantage if you do not know how to touch type. To practice this skill we recommend [typingclub](http://typingclub.com) or [typeracer](http://play.typeracer.com/).
+You will be at a serious disadvantage if you do not know how to touch type. To practice this skill we recommend [typingclub](http://typingclub.com), [speedcoder](http://www.speedcoder.net/) or [typeracer](http://play.typeracer.com/).
 
 ### A word on *Keyboard Shortcuts*
 
