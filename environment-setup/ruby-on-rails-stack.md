@@ -64,9 +64,7 @@ Ruby packages are referred to as "gems".
 2. Configure postgres to start when the system does.
 
   ```bash
-  $ mkdir -p ~/Library/LaunchAgents
-
-  $ ln -sfv /usr/local/opt/postgresql/*.plist ~/Library/LaunchAgents
+  $ brew services start postgresql
   ```
 
 
