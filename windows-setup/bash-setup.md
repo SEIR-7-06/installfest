@@ -6,4 +6,10 @@
 
 3. Run `apt-get update` to ensure your Linux installation is up to date.
 
+4. Run
+```bash
+sudo apt-get -f install
+```
+to ensure all default packages are installed.
+
 Excellent-you now have Linux installed on your computer, which will let you use the same commands as everyone else for the remainder of the course.
