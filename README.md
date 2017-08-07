@@ -2,6 +2,8 @@
 
 We're going to install most of the tools we'll use in this course onto your computer today.
 
+## For Mac Users:
+
 Please follow the setup instructions in each of these guides:
 
 1. Setup your **Development Environment**:
@@ -13,6 +15,10 @@ Please follow the setup instructions in each of these guides:
     - [Browser](mac-dev-tools/README.md#browser)
     - [Window Manager](mac-dev-tools/README.md#window-manager)
     - [Learn Keyboard Shortcuts](mac-dev-tools/README.md#a-word-on-keyboard-shortcuts)
+
+## For Windows Users:
+
+Please follow the instructions in the [Windows setup guide](windows-setup).
 
 *In this context, "stack" refers to a group of technologies used together to create a web app.*
 
