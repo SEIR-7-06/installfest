@@ -4,5 +4,9 @@ Please note that your instructors all use Mac computers, and will be less able t
 
 With that out of the way, let's get started!
 
-1. Setup your **Development Environment**:
-    - [The BASH Command Line](bash-setup.md)
+1. Set up your **Development Environment**:
+    * [ ] [The BASH Command Line](bash-setup.md)
+    * [ ] [Developer Tools](developer-tools.md)
+2. Set up your **Web Technologies**:
+    * [ ] [Node Stack](node-setup.md)
+    * [ ] [Ruby on Rails Stack](ror-setup.md)
