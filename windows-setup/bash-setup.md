@@ -16,7 +16,7 @@ Excellent-you now have Linux installed on your computer, which will let you use 
 
 Next up: your developer tools!
 1. Set up your **Development Environment**:
-    * [x] [The BASH Command Line]
+    * [x] The BASH Command Line
     * [ ] [Developer Tools](developer-tools.md)
 2. Set up your **Web Technologies**:
     * [ ] [Node Stack](node-setup.md)
