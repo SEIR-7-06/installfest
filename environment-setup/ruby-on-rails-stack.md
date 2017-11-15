@@ -80,6 +80,11 @@ Ruby packages are referred to as "gems".
     ```
 
     If it worked, you should see ```/usr/local/bin/psql``` as the terminal output.
+    
+4. Create a database with your username. (This will save you many future headaches.)
+  ```bash
+  $ createdb $USER
+  ```
 
 
 
