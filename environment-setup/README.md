@@ -124,7 +124,7 @@ In more recent models of Apple computers, the trackpad produces an artifical "cl
 
 1. Navigate to `System Preferences` and click `Trackpad`.
 2. Navigate to the tab `Point & Click`.
-3. At the bottom, check the input that displays "Silent clicking".
+3. At the bottom, check the input that displays "Silent clicking". (If you don't see this option, then you don't need to do this step!)
 
 Ensure the trackpad no longer makes a noise when clicked.
 
@@ -156,7 +156,7 @@ Configuring your git settings will help GitHub track your contributions and to m
 
 2. Generate a SSH key for GitHub by [following GitHub's instructions](https://help.github.com/articles/generating-ssh-keys). This will allow you to use GitHub from your Terminal without entering your login information every time you push.
 
-Clarifying notes for the GitHub's instruction that might be confusing:
+Clarifying notes for GitHub's instructions that might be confusing:
 
 1. When you are "Adding a new SSH key to your GitHub Account" the command:
 
@@ -164,7 +164,7 @@ Clarifying notes for the GitHub's instruction that might be confusing:
 	$ pbcopy < ~/.ssh/id_rsa.pub
 	```
 
-	Will take your SSH key that was saved to the file id_rsa.pub and copy it to your clipboard (similar to using your quick keys cmd C but with the command line).
+	will take your SSH key that was saved to the file id_rsa.pub and copy it to your clipboard (similar to using Command-C, but with the command line).
 
 
 ## Next Up
