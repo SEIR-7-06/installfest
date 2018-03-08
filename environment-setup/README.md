@@ -102,7 +102,7 @@ If you haven't done anything to personalize the terminal yet that's fine, but it
 
 1. [Download](http://ethanschoonover.com/solarized/files/solarized.zip) the zip file of all the themes.
 2. Unzip it by double-clicking
-3. Open your the Terminal Application and navigate to `Terminal` -> `Preferences`. In the bottom left hand corner, find the icon that looks like a cog/gear and select `Import...`.
+3. Open your the Terminal Application and navigate to `Terminal` -> `Preferences`. Navigate to the `Profiles` tab. In the bottom left hand corner, find the icon that looks like a cog/gear and select `Import...`.
 4. Navigate to the unzipped solarized directory and navigate into the sub-directory `osx-terminal.app-colors-solarized` and select `Solarized Dark ansi.terminal`.
 5. Finally, click the button `Default` next to the cog/gear icon, which will set this to your default theme.
 
