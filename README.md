@@ -7,7 +7,6 @@ Please follow the setup instructions in each of these guides:
 1. Setup your **Development Environment**:
     - [General Command Line Tools](environment-setup)
     - [Node.js and Express Stack](environment-setup/node-express-stack.md)
-    - [Ruby on Rails Stack](environment-setup/ruby-on-rails-stack.md)
 2. Install **Development Tools & Applications**:
     - [Text Editor](mac-dev-tools/README.md#text-editor)
     - [Browser](mac-dev-tools/README.md#browser)
