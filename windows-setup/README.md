@@ -36,4 +36,3 @@ With that out of the way, here are the directions that will allow you to use the
     * [ ] [Developer Tools](dangerous-wsl/setup/developer-tools.md)
 2. Set up your **Web Technologies**:
     * [ ] [Node Stack](dangerous-wsl-setup/node-setup.md)
-    * [ ] [Ruby on Rails Stack](dangerous-wsl-setup/ror-setup.md)
