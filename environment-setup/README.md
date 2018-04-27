@@ -96,7 +96,7 @@ It will tell you that this command is not found or it just won't do anything. Th
 
 ## Customization
 
-### Styles
+### Styles (Optional)
 
 If you haven't done anything to personalize the terminal yet that's fine, but it will probably look a little boring (and hard to read). We recommend adding some styles to the bash shell. [Solarized](http://ethanschoonover.com/solarized) is a great theme for this purpose.
 
@@ -108,7 +108,7 @@ If you haven't done anything to personalize the terminal yet that's fine, but it
 
 Try opening up a new window for the Terminal and ensure the color scheme has been updated.
 
-### Option as Meta Key
+### Option as Meta Key (Optional)
 
 Let's change a setting in the Terminal that will allow us to move through and delete entire words at a time by holding down the `option` key. This the default behavior of most text editors and will allow us to make more productive edits to our bash commands.
 
@@ -118,7 +118,7 @@ Let's change a setting in the Terminal that will allow us to move through and de
 
 Try typing something in the Terminal then using the arrows to navigate through the text; now hold the `option` key at the same time to see the cursor jump from one word to the next.
 
-### Silent Clicking
+### Silent Clicking (Optional)
 
 In more recent models of Apple computers, the trackpad produces an artifical "click" sound; however, we can turn this off.
 
@@ -169,5 +169,4 @@ Clarifying notes for GitHub's instructions that might be confusing:
 
 ## Next Up
 * [ ] [Set up your Node.js environment](node-express-stack.md)
-* [ ] Set up your Ruby environment
 * [ ] Install Development Tools
