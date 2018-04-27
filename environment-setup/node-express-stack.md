@@ -88,4 +88,4 @@ RoboMongo is a GUI (Graphical User Interface) tool to let us see the data in our
 
 ## Next Up
 * [x] Set up your Node.js environment
-* [ ] Install Development Tools
+* [ ] [Install Development Tools](https://git.generalassemb.ly/sf-wdi-45/installfest/tree/master/mac-dev-tools)
