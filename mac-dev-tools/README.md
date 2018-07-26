@@ -2,7 +2,7 @@
 
 ## Text Editor
 
-Our class will be using [Atom](editor-atom.md) as our preferred text editor. <!--However, feel free to use [Sublime Text 3](editor-sublime-text-3.md) as it is very similar. -->
+Our class will be using [Visual Studio Code](editor-atom.md) as our preferred text editor. <!--However, feel free to use [Sublime Text 3](editor-sublime-text-3.md) as it is very similar. -->
 
 ## Browser
 Our class will be using Chrome as our preferred browser. If you don't already have it, please follow the installation instructions for:
