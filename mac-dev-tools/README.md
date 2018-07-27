@@ -2,7 +2,8 @@
 
 ## Text Editor
 
-Our class will be using [Visual Studio Code](editor-atom.md) as our preferred text editor. <!--However, feel free to use [Sublime Text 3](editor-sublime-text-3.md) as it is very similar. -->
+Our class will be using [Visual Studio Code](editor-vsc.md) as our preferred text editor. <!--However, feel free to use [Sublime Text 3](editor-sublime-text-3.md) as it is very similar. -->
+
 
 ## Browser
 Our class will be using Chrome as our preferred browser. If you don't already have it, please follow the installation instructions for:
@@ -55,4 +56,3 @@ One of the best ways to learn keyboard shortcuts is to _STOP USING YOUR MOUSE_. 
 ## That's it!
 ![](http://i.giphy.com/3otPoS81loriI9sO8o.gif)
 
-Thanks for coming to InstallFest, and we're excited to see you next week! Please fill out [this form](https://goo.gl/forms/gEo4VPIjKrUXCWi82) to let us know you've finished.
