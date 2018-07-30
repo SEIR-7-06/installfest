@@ -1,6 +1,6 @@
 ## Visual Studio Code Text Editor
 
-1. Go [here](https://code.visualstudio.com/) to download Atom.
+1. Go [here](https://code.visualstudio.com/) to download Code.
 2. Open the downloaded zip file.
 3. Drag the unzipped `Visual Studio Code` app to your `Applications` folder.
 
@@ -26,8 +26,8 @@ We can install VSC packages in the VSC extensions sidebar. Since we're learning 
 ## Configure Git to Use Visual Studio Code
 When you forget to enter a commit message in the Terminal, git opens a text editor and reminds you to add a commit message.
 
-Run the following command in the Terminal to configure git to open Atom instead of the default text editor:
+Run the following command in the Terminal to configure git to open Code instead of the default text editor:
 
 ```bash
-$ git config --global core.editor "code -w"
+$ git config --global core.editor "code --wait"
 ```
