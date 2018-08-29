@@ -19,4 +19,4 @@ Please follow the setup instructions in each of these guides:
 
 If you are unsure what to do or run into problems during installation, don't worry! It happens to every web developer at some point. Read any error messages, recheck the instructions, and ask for help.
 
-![ready to code like a boss](https://media.giphy.com/media/zOvBKUUEERdNm/giphy.gif)
+![ready to code like a boss?](https://media.giphy.com/media/zOvBKUUEERdNm/giphy.gif)
