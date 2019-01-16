@@ -32,11 +32,12 @@ We're going to install Node.js using a tool called Node Version Manager (NVM for
 
   ```bash
   $ nvm install --lts
-  # Your console should display a progress bar during installation. 
-  # Wait for this to complete before continuing.
+  ```
   
+  > Your console should display a progress bar during installation. Wait for this to complete before continuing.
+
+  ```bash
   $ nvm use --lts
-  
   ```
 
 
