@@ -11,15 +11,30 @@ Most of the coding work we do in weeks 3 to 5 will be driven by the back-end web
 
 __Note:  when copying the code snippets, please exclude the `$` as you paste and run the code into your terminal.  The dollar sign `$` is simply an indicator of the logged-in user's terminal prompt in the examples.__
 
-1. Install Node.js with Homebrew by running the following command in the Terminal:
+We're going to install Node.js using a tool called Node Version Manager (NVM for short). Node has been around for a while and has many versions available for us to use. We're going to focus on the latest Longterm Support (LTS) version for our work in the course. 
+
+1. Run the following command to download the `nvm` install script via `curl`:
 
   ```bash
-  $ brew install node
+  $ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.0/install.sh | bash
   ```
 
-2. Run the Terminal command `node -v` to check that Node.js was installed. It should print a version number greater than or equal to "v5.8.0". The Terminal command `node` changes your Terminal into a Javascript REPL ("Read Evaluate Print Loop"), like the right-hand side of repl.it. Use the shortcut `ctrl + c`, or type `.exit` to quit out of the REPL and return to the normal Terminal prompt.
+2. Double check that NVM installed correctly with:
 
-2. Run the Terminal command `which npm` to check that NPM is installed. The Node Package Manager, used through various `npm` commands, is a lot like Homebrew, except we'll use it for Node.js-specific tools instead of for general Mac tools. NPM packages are often called "node modules."
+  ```bash
+  $ nvm --version
+  # Output should look something like:
+  0.32.1
+  ```
+
+3. Finally we're ready to install Node. We want the latest LTS version. To get it and use it, run these commands:
+
+  ```bash
+  $ nvm install --lts
+  
+  $ nvm use --lts
+  ```
+
 
 ### Nodemon
 
