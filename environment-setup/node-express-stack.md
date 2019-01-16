@@ -23,9 +23,6 @@ We're going to install Node.js using a tool called Node Version Manager (NVM for
 
   ```bash
   $ nvm --version
-  # Output should look something like:
-  0.32.1
-  
   ```
 
 3. Finally we're ready to install Node. We want the latest LTS version. To get it and use it, run these commands:
