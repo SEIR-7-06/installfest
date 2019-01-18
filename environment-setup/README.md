@@ -13,7 +13,6 @@ To check which operating system you're running:
 </p>
 
 
-
 If you are not using OS X Yosemite (10.10), OS X El Capitan (10.11), or macOS Sierra, detailed instructions for upgrading your operating system are available through Apple support: [How to upgrade to macOS Sierra](https://support.apple.com/macos)
 
 > Please let an instructor know if you're using an older version of OS X or if your system has less than 2 GB of memory.
