@@ -45,7 +45,7 @@ One way to learn them is to go through the menu bar and look at each dropdown op
 
 <img width="225" alt="screen shot 2017-01-17 at 10 41 37 am" src="https://cloud.githubusercontent.com/assets/1489337/22034623/af02d68e-dca1-11e6-85ec-8457a7defbc4.png">
 
-Another option is to simply google ["sublime text 3 cheatsheet"](https://www.google.com/search?q=sublime+text+3+cheatsheet&tbm=isch) or "vscode cheatsheet" and find a result that works for you. Try it!
+Another option is to this free plugin that lists all possible shortcuts in whatever application you're currently in. Download and install [CheatSheet](https://mediaatelier.com/CheatSheet/?lang=en) to get this tool.
 
 One of the best ways to learn keyboard shortcuts is to _STOP USING YOUR MOUSE_. Cover it with a piece of paper! Tape a list of shortcuts next to your screen!
 
