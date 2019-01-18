@@ -41,13 +41,10 @@ For starters, you should know how to `copy`, `paste`, and `cut`. But there are t
 
 Every single application above has its own list of shortcuts too!
 
-One way to learn them is to go through the menu bar and look at each dropdown option (the shortcuts are listed on the righthand side).
-
-<img width="225" alt="screen shot 2017-01-17 at 10 41 37 am" src="https://cloud.githubusercontent.com/assets/1489337/22034623/af02d68e-dca1-11e6-85ec-8457a7defbc4.png">
-
-Another option is to this free plugin that lists all possible shortcuts in whatever application you're currently in. Download and install [CheatSheet](https://mediaatelier.com/CheatSheet/?lang=en) to get this tool.
+One way to learn them is to use this free plugin that lists all possible shortcuts in whatever application you're currently in. Download and install [CheatSheet](https://mediaatelier.com/CheatSheet/?lang=en) to get this tool.
 
 <img src="https://mediaatelier.com/CheatSheet/imgs/main.png">
+> This is what CheatSheet looks like in action!
 
 One of the best ways to learn keyboard shortcuts is to _STOP USING YOUR MOUSE_. Cover it with a piece of paper! Tape a list of shortcuts next to your screen!
 
