@@ -9,32 +9,31 @@ Most of the coding work we do in weeks 3 to 5 will be driven by the back-end web
 
 ## Node.js
 
-__Note:  when copying the code snippets, please exclude the `$` as you paste and run the code into your terminal.  The dollar sign `$` is simply an indicator of the logged-in user's terminal prompt in the examples.__
 
 We're going to install Node.js using a tool called Node Version Manager (NVM for short). Node has been around for a while and has many versions available for us to use. We're going to focus on the latest Longterm Support (LTS) version for our work in the course. 
 
 1. Run the following command to download the `nvm` install script via `curl`:
 
   ```bash
-  $ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.0/install.sh | bash
+  curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.0/install.sh | bash
   ```
 
 2. Double check that NVM installed correctly with:
 
   ```bash
-  $ nvm --version
+  nvm --version
   ```
 
 3. Finally we're ready to install Node. We want the latest LTS version. To get it and use it, run these commands:
 
   ```bash
-  $ nvm install --lts
+  nvm install --lts
   ```
   
   > Your console should display a progress bar during installation. Wait for this to complete before continuing.
 
   ```bash
-  $ nvm use --lts
+  nvm use --lts
   ```
 
 
@@ -45,7 +44,7 @@ Nodemon (short for "node monitor") will make our Node.js workflow more efficient
 1. Install nodemon globally with the following Terminal command:
 
   ```bash
-  $  npm install -g nodemon
+  npm install -g nodemon
   ```
 
 
@@ -56,20 +55,20 @@ MonogDB is a database that stores information as easy to read "documents". We'll
 1. Use Homebrew to update all our brew packages.
 
   ```bash
-  $ brew update
+  brew update
   ```
 
 2. Run `brew install` for **MongoDB**.
 
   ```bash
-  $ brew install mongodb
+  brew install mongodb
   ```
 
 3. Then we'll need a directory for **MongoDB** to save data. Make sure you create this directory inside your root (`/`) directory.
 
   ```bash
-  $ cd /
-  $ sudo mkdir -p data/db
+  cd /
+  sudo mkdir -p data/db
   ```
 
   You will be prompted to enter your system password here. This is the password you use to log into your computer.
@@ -83,15 +82,15 @@ MonogDB is a database that stores information as easy to read "documents". We'll
 4. Finally we'll want to make sure we have permission to read and write to this directory.
 
   ```bash
-  $ sudo chown -R $USER data/db
+  sudo chown -R $USER data/db
   ```
   Again, you'll need to enter your system password.
 
 5. Run two commands to check whether the install worked. You should see a file path after each command.
 
   ```bash
-  $ which mongod
-  $ which mongo
+  which mongod
+  which mongo
   ```
 
   If this has worked correctly, you will see `/usr/local/bin/mongod` and `/usr/local/bin/mongo` respectively as the outputs from terminal.

@@ -8,7 +8,10 @@ Before class starts, we suggest you upgrade your operating system to OS X Yosemi
 
 To check which operating system you're running:
 
-<img src='../assets/version.png' width='400px'>
+<p align="center">
+  <img src='../assets/version.png' width='600px'>
+</p>
+
 
 If you are not using OS X Yosemite (10.10), OS X El Capitan (10.11), or macOS Sierra, detailed instructions for upgrading your operating system are available through Apple support: [How to upgrade to macOS Sierra](https://support.apple.com/macos)
 
@@ -16,8 +19,9 @@ If you are not using OS X Yosemite (10.10), OS X El Capitan (10.11), or macOS Si
 
 ### Install Command Line Tools from the Terminal
 
-<img src='../assets/xcode.png' width='400px'>
-
+<p align="center">
+<img src='../assets/xcode.png' width='600px'>
+</p>
 
 ## Homebrew <img src='../assets/brew.png' width='50px'>
 
@@ -98,15 +102,18 @@ Try opening up a new window for the Terminal and ensure the color scheme has bee
 Style it! Make it your own! 
 Other options are [Hyper Terminal](https://hyper.is/) and [ZSH](https://ohmyz.sh/)
 
-![terminal](../assets/terminalexample.gif)
-
+<p align="center">
+<img src='../assets/terminalexample.gif'>
+</p>
 
 
 ## Git
 
 You should already have git installed and have an account on GitHub from Fundamentals. If not, sign up for an account on [github.com](http://github.com). We'll be using GitHub to track code changes and collaborate on projects.
 
-<img src='../assets/git.png' width='500px'>
+<p align="center">
+<img src='../assets/git.png' width='600px'>
+</p>
 
 ### Confirm Install
 
@@ -118,7 +125,9 @@ Configuring your git settings will help GitHub track your contributions and to m
 
 1. Use the following three `git config` commands to configure your git user information and have git "cache" (remember) it. We use the `--global` (or `-g`) option to make the configuration apply to all repositories.
 
-<img src='../assets/gitconfig.png' width='500px' alt='git config'>
+<p align="center">
+<img src='../assets/gitconfig.png' width='600px' alt='git config'>
+</p>
 
 2. Generate a SSH key for GitHub by [following GitHub's instructions](https://help.github.com/articles/generating-ssh-keys). This will allow you to use GitHub from your Terminal without entering your login information every time you push.
 
