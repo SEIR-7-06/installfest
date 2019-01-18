@@ -6,6 +6,8 @@
 3. Follow the installation instructions (drag Sublime Text 3 to your Applications folder).
 4. Open the Sublime Text 3 application.
 
+<p align="center"><img src='../assets/sublInstall.gif' width='600px'></p>
+
 ### Configure Tab Size
 We encourage you to set your tab size to 2 spaces:
 
@@ -19,6 +21,7 @@ We encourage you to set your tab size to 2 spaces:
     }
     ```
 
+<p align="center"><img src='../assets/sublTabs.gif' width='600px'></p>
 
 ### Open Sublime from the Terminal
 
@@ -29,16 +32,18 @@ Sublime Text 3 includes a program that launches Sublime from the Terminal. We'll
 1. To run a program from the Terminal, it needs to be available on your $PATH. The next step assumes `/usr/local/bin` is in your $PATH, so let's check that.  Run the following command from the Terminal to see your current $PATH:
 
     ```bash
-    $ echo $PATH
+    echo $PATH
     ```
 
 2. Run the following command in your Terminal to set up the link:
 
     ```bash
-    $ ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
+    ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
     ```
 
 3. Type `subl .` in the Terminal, and Sublime Text 3 should open!
+
+<p align="center"><img src='../assets/comline.gif' width='600px'></p>
 
 ### Configure Git to Use Sublime
 
@@ -47,5 +52,5 @@ When you forget to enter a commit message in the Terminal, git opens a text edit
 1. Run the following command in the Terminal to configure git to open Sublime Text instead of the default text editor:
 
     ```bash
-    $ git config --global core.editor "subl -w"
+    git config --global core.editor "subl -w"
     ```
