@@ -44,6 +44,7 @@ Every single application above has its own list of shortcuts too!
 One way to learn them is to use this free plugin that lists all possible shortcuts in whatever application you're currently in. Download and install [CheatSheet](https://mediaatelier.com/CheatSheet/?lang=en) to get this tool.
 
 <img src="https://mediaatelier.com/CheatSheet/imgs/main.png">
+
 > This is what CheatSheet looks like in action!
 
 One of the best ways to learn keyboard shortcuts is to _STOP USING YOUR MOUSE_. Cover it with a piece of paper! Tape a list of shortcuts next to your screen!
