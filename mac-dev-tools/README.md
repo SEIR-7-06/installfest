@@ -30,11 +30,10 @@ While programming it's pretty common to need to juggle the placement of multiple
 
 You can try this now.
 
-### Touch Typing
+## Touch Typing
 You will be at a serious disadvantage if you do not know how to touch type. To practice this skill we recommend [typingclub](http://typingclub.com), [speedcoder](http://www.speedcoder.net/) or [typeracer](http://play.typeracer.com/).
 
-### A word on *Keyboard Shortcuts*
-
+## Keyboard Shortcuts
 By the way, developers LOVE shortcut key combinations. The more shortcuts you know, the faster you can code!
 
 For starters, you should know how to `copy`, `paste`, and `cut`. But there are tons more [Mac Shortcuts](https://duckduckgo.com/?q=mac+keyboard+shortcuts&ia=cheatsheet&iax=1) you should learn [how to read](https://support.apple.com/en-us/HT201236) and use!
