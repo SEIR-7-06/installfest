@@ -41,7 +41,7 @@ For starters, you should know how to `copy`, `paste`, and `cut`. But there are t
 
 Every single application above has its own list of shortcuts too!
 
-One way to learn them is to use this free plugin that lists all possible shortcuts in whatever application you're currently in. Download and install [CheatSheet](https://mediaatelier.com/CheatSheet/?lang=en) to get this tool.
+One way to learn them is to use this free plugin, CheatSheet, that makes it easy to see all possible shortcuts in whatever application you're currently using. Download and install [CheatSheet](https://mediaatelier.com/CheatSheet/?lang=en) to get this tool. Once installed, press and hold the Command key and cheatsheet will pop up on its own.
 
 <img src="https://mediaatelier.com/CheatSheet/imgs/main.png">
 
