@@ -2,7 +2,7 @@
 
 ## Text Editor
 
-Our class will be using [Visual Studio Code](editor-vsc.md) as our preferred text editor. <!--However, feel free to use [Sublime Text 3](editor-sublime-text-3.md) as it is very similar. -->
+Our class will begin the course with [Sublime Text 3](editor-sublime-text-3.md) and eventually transition to [Visual Studio Code](editor-vsc.md) as our preferred text editor. Install Sublime Text now.
 
 
 ## Browser
@@ -30,24 +30,21 @@ While programming it's pretty common to need to juggle the placement of multiple
 
 You can try this now.
 
-### Touch Typing
+## Touch Typing
 You will be at a serious disadvantage if you do not know how to touch type. To practice this skill we recommend [typingclub](http://typingclub.com), [speedcoder](http://www.speedcoder.net/) or [typeracer](http://play.typeracer.com/).
 
-### A word on *Keyboard Shortcuts*
-
+## Keyboard Shortcuts
 By the way, developers LOVE shortcut key combinations. The more shortcuts you know, the faster you can code!
 
 For starters, you should know how to `copy`, `paste`, and `cut`. But there are tons more [Mac Shortcuts](https://duckduckgo.com/?q=mac+keyboard+shortcuts&ia=cheatsheet&iax=1) you should learn [how to read](https://support.apple.com/en-us/HT201236) and use!
 
 Every single application above has its own list of shortcuts too!
 
-One way to learn them is to go through the menu bar and look at each dropdown option (the shortcuts are listed on the righthand side).
+One way to learn them is to use this free plugin, CheatSheet, that makes it easy to see all possible shortcuts in whatever application you're currently using. Download and install [CheatSheet](https://mediaatelier.com/CheatSheet/?lang=en) to get this tool. Once installed, press and hold the Command key and cheatsheet will pop up on its own.
 
-<img width="225" alt="screen shot 2017-01-17 at 10 41 37 am" src="https://cloud.githubusercontent.com/assets/1489337/22034623/af02d68e-dca1-11e6-85ec-8457a7defbc4.png">
+<img src="https://mediaatelier.com/CheatSheet/imgs/main.png">
 
-Another option is to simply google ["sublime text 3 cheatsheet"](https://www.google.com/search?q=sublime+text+3+cheatsheet&tbm=isch) or ["atom cheatsheet"](https://www.google.com/search?tbm=isch&q=atom+cheat+sheet). Try it!
-
-You can also try practicing applications shortcuts with [shortcutfoo](https://www.shortcutfoo.com/app/dojos/atom-mac).
+> This is what CheatSheet looks like in action!
 
 One of the best ways to learn keyboard shortcuts is to _STOP USING YOUR MOUSE_. Cover it with a piece of paper! Tape a list of shortcuts next to your screen!
 
