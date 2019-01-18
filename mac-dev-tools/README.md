@@ -47,6 +47,8 @@ One way to learn them is to go through the menu bar and look at each dropdown op
 
 Another option is to this free plugin that lists all possible shortcuts in whatever application you're currently in. Download and install [CheatSheet](https://mediaatelier.com/CheatSheet/?lang=en) to get this tool.
 
+<img src="https://mediaatelier.com/CheatSheet/imgs/main.png">
+
 One of the best ways to learn keyboard shortcuts is to _STOP USING YOUR MOUSE_. Cover it with a piece of paper! Tape a list of shortcuts next to your screen!
 
 ![](https://m.popkey.co/80a186/wqdmb.gif)
