@@ -2,7 +2,7 @@
 
 ## Text Editor
 
-Our class will begin the course with [Sublime Text 3](editor-sublime-text-3.md) and eventually transition to [Visual Studio Code](editor-vsc.md) as our preferred text editor. Install Sublime Text now.
+Our class will begin the course with [Sublime Text 3](./editor-sublime-text-3.md) and eventually transition to [Visual Studio Code](./editor-vsc.md) as our preferred text editor. Install Sublime Text now.
 
 
 ## Browser
@@ -48,8 +48,7 @@ One way to learn them is to use this free plugin, CheatSheet, that makes it easy
 
 One of the best ways to learn keyboard shortcuts is to _STOP USING YOUR MOUSE_. Cover it with a piece of paper! Tape a list of shortcuts next to your screen!
 
-![](https://m.popkey.co/80a186/wqdmb.gif)
-
 ## That's it!
+
 ![](http://i.giphy.com/3otPoS81loriI9sO8o.gif)
 
