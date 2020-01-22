@@ -7,12 +7,11 @@ Please follow the setup instructions in each of these guides:
 
 1. Setup your **Development Environment**:
     - [General Command Line Tools](environment-setup)
-    - [Node.js and Express Stack](environment-setup/node-express-stack.md)
 2. Install **Development Tools & Applications**:
     - [Text Editor](mac-dev-tools/README.md#text-editor)
     - [Browser](mac-dev-tools/README.md#browser)
     - [Window Manager](mac-dev-tools/README.md#window-manager)
-    - [Learn Keyboard Shortcuts](mac-dev-tools/README.md#a-word-on-keyboard-shortcuts)
+    - [Learn Keyboard Shortcuts](mac-dev-tools/README.md#keyboard-shortcuts)
 
 > Have a Windows machine? Read more about your options [here](windows-setup), and feel free to reach out to an instructor.
 
