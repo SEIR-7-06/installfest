@@ -13,7 +13,15 @@ Our class will be using Chrome as our preferred browser. If you don't already ha
 We also recommend you install the following Chrome Extensions:
 
 * [JSON View](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc)
-* [Postman](http://www.getpostman.com/)
+
+
+## Postman
+
+Postman is a tool used for interacting with HTTP APIs. For basic HTTP "GET" requests, you could use your browser, but Postman allows you tailor your request to make POST requests, modify header information, format request bodies, and more. Postman will act as our client to send requests to the server and get a response back to test the APIs.
+
+Download the Postman app [here](https://www.getpostman.com/products), making sure to get **the app and not the Chrome extension**. (Postman Chrome is deprecated and missing essential Postman features.) 
+
+Postman has many features that you'll learn more about as we progress, so we won't spend too much time here.
 
 ## Window Manager
 
