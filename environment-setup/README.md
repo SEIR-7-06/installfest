@@ -143,5 +143,4 @@ Clarifying notes for GitHub's instructions that might be confusing:
 
 
 ## Next Up
-* [Set up your Node.js environment](node-express-stack.md)
 * [Install Development Tools](https://git.generalassemb.ly/SF-WDI/installfest/tree/master/mac-dev-tools)
