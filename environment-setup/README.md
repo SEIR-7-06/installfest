@@ -143,4 +143,5 @@ Clarifying notes for GitHub's instructions that might be confusing:
 
 
 ## Next Up
-* [Install Development Tools](https://git.generalassemb.ly/SF-WDI/installfest/tree/master/mac-dev-tools)
+* [Install Development Tools](../mac-dev-tools/README.md)
+

@@ -94,5 +94,6 @@ Robo3T is a GUI (Graphical User Interface) tool to let us see the data in our Mo
 
 ## Next Up
 
-- [x] Set up your Node.js environment
-- [ ] [Install Development Tools](https://git.generalassemb.ly/sf-wdi-45/installfest/tree/master/mac-dev-tools)
+- [Install Visual Studio Code](./mac-dev-tools/editor-vsc.md)
+
+![](https://media.giphy.com/media/l3dj09hpsfuYkijDi/giphy.gif)
