@@ -129,6 +129,18 @@ Configuring your git settings will help GitHub track your contributions and to m
 <img src='../assets/gitconfig.png' width='600px' alt='git config'>
 </p>
 
+To view your git configurations, you can either run following commands on the terminal
+
+```
+git config --list
+```
+OR
+
+```
+git config user.name
+git config user.email
+```
+
 2. Generate a SSH key for GitHub by [following GitHub's instructions](https://help.github.com/articles/generating-ssh-keys). This will allow you to use GitHub from your Terminal without entering your login information every time you push.
 
 Clarifying notes for GitHub's instructions that might be confusing:
