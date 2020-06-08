@@ -1,6 +1,6 @@
 ## Sublime Text Editor
 
-1. Use this link to [download Sublime Text 3](http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%20Build%203083.dmg).
+1. Use this link to [download Sublime Text 3](https://www.sublimetext.com/3).
     * Sublime Text 3 is FREE, as in _you don't need to pay for it_.
 2. Open the downloaded file.
 3. Follow the installation instructions (drag Sublime Text 3 to your Applications folder).
