@@ -53,12 +53,6 @@ MonogDB is a database that stores information as easy to read "documents". We'll
 
 [Install Instructions](https://docs.mongodb.com/manual/administration/install-community/)
 
-2. Then we'll need a directory for **MongoDB** to save data. Make sure you create this directory inside your root (`/`) directory.
-
-```bash
-cd /
-sudo mkdir -p data/db
-```
 
 You will be prompted to enter your system password here. This is the password you use to log into your computer.
 
@@ -76,14 +70,13 @@ sudo chown -R $USER data/db
 
 Again, you'll need to enter your system password.
 
-4. Run two commands to check whether the install worked. You should see a file path after each command.
+4. Run the which command to check whether the install worked. You should see a file path returned.
 
 ```bash
-which mongod
 which mongo
 ```
 
-If this has worked correctly, you will see `/usr/local/bin/mongod` and `/usr/local/bin/mongo` respectively as the outputs from terminal.
+If this has worked correctly, you will see `/usr/local/bin/mongo` as the output from terminal.
 
 ## Robo3T
 
