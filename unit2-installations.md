@@ -54,23 +54,7 @@ MonogDB is a database that stores information as easy to read "documents". We'll
 [Install Instructions](https://docs.mongodb.com/manual/administration/install-community/)
 
 
-You will be prompted to enter your system password here. This is the password you use to log into your computer.
-
-_Sidenote:
-When you use this `sudo` command, you are saying "superuser do" which can force your computer to perform the command you entered, even if it's a bad idea. This is why you're prompted to insert a password. Terminal makes sure your computer is secure and that you're sure about the command you're about to execute forcefully._
-
-![relevant xkcd](https://cloud.githubusercontent.com/assets/6520345/17527880/f458616c-5e21-11e6-9156-4db012c5efc7.png)
-[Source: xkcd](https://xkcd.com/149/)
-
-3. Finally we'll want to make sure we have permission to read and write to this directory.
-
-```bash
-sudo chown -R $USER data/db
-```
-
-Again, you'll need to enter your system password.
-
-4. Run the which command to check whether the install worked. You should see a file path returned.
+2. After the installation, run the `which` command to verify the install was successful.
 
 ```bash
 which mongo
