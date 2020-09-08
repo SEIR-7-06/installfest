@@ -4,7 +4,7 @@
 
 If you don't already have an account for the Mac App Store, follow the instructions on Apple Support to [create a Mac App Store account](https://support.apple.com/kb/PH11499?locale=en_US).
 
-Before class starts, we suggest you upgrade your operating system to OS X Yosemite (10.10), OS X El Capitan (10.11), or macOS Sierra.  If you're on an older machine with 4GB or less of memory, please stick to OS X Yosemite.  Also, if Apple releases a newer version of macOS while you're in WDI; please don't update until your instructors say it's ok.
+Before class starts, we suggest you upgrade your operating system to OS X Yosemite (10.10), OS X El Capitan (10.11), or macOS Sierra.  If you're on an older machine with 4GB or less of memory, please stick to OS X Yosemite.  Also, if Apple releases a newer version of macOS while you're in SEI; please don't update until your instructors say it's ok.
 
 To check which operating system you're running:
 
