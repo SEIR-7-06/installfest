@@ -141,19 +141,6 @@ git config user.name
 git config user.email
 ```
 
-2. Generate a SSH key for GitHub by [following GitHub's instructions](https://help.github.com/articles/generating-ssh-keys). This will allow you to use GitHub from your Terminal without entering your login information every time you push.
-
-Clarifying notes for GitHub's instructions that might be confusing:
-
-1. When you are "Adding a new SSH key to your GitHub Account" the command:
-
-	```bash
-	pbcopy < ~/.ssh/id_rsa.pub
-	```
-
-	will take your SSH key that was saved to the file id_rsa.pub and copy it to your clipboard (similar to using Command-C, but with the command line).
-
-
 ## Next Up
 * [Install Development Tools](../mac-dev-tools/README.md)
 
