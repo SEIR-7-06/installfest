@@ -4,7 +4,7 @@
 
 If you don't already have an account for the Mac App Store, follow the instructions on Apple Support to [create a Mac App Store account](https://support.apple.com/kb/PH11499?locale=en_US).
 
-Before class starts, we suggest you upgrade your operating system to OS X Yosemite (10.10), OS X El Capitan (10.11), or macOS Sierra.  If you're on an older machine with 4GB or less of memory, please stick to OS X Yosemite.  Also, if Apple releases a newer version of macOS while you're in WDI; please don't update until your instructors say it's ok.
+Before class starts, we suggest you upgrade your operating system to OS X Yosemite (10.10), OS X El Capitan (10.11), or macOS Sierra.  If you're on an older machine with 4GB or less of memory, please stick to OS X Yosemite.  Also, if Apple releases a newer version of macOS while you're in SEI; please don't update until your instructors say it's ok.
 
 To check which operating system you're running:
 
@@ -140,19 +140,6 @@ OR
 git config user.name
 git config user.email
 ```
-
-2. Generate a SSH key for GitHub by [following GitHub's instructions](https://help.github.com/articles/generating-ssh-keys). This will allow you to use GitHub from your Terminal without entering your login information every time you push.
-
-Clarifying notes for GitHub's instructions that might be confusing:
-
-1. When you are "Adding a new SSH key to your GitHub Account" the command:
-
-	```bash
-	pbcopy < ~/.ssh/id_rsa.pub
-	```
-
-	will take your SSH key that was saved to the file id_rsa.pub and copy it to your clipboard (similar to using Command-C, but with the command line).
-
 
 ## Next Up
 * [Install Development Tools](../mac-dev-tools/README.md)
