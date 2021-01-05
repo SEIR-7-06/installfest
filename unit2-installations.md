@@ -11,26 +11,26 @@ Most of the coding work we do in weeks 3 to 5 will be driven by the back-end web
 
 We're going to install Node.js using a tool called Node Version Manager (NVM for short). Node has been around for a while and has many versions available for us to use. We're going to focus on the latest Longterm Support (LTS) version for our work in the course.
 
-2. Verify you have a `.bash_profile` and a `.zshrc` file in your home directory.
+1. Verify you have a `.bash_profile` and a `.zshrc` file in your home directory.
 - Run `cd ~` to get into your home directory.
 - Run `ls` and see if you have `.bash_profile` or `.zshrc` listed.
 - If not run `touch .bash_profile .zshrc`
 - Quit out of your terminal completely. You can go to the top menu for your terminal and click Quit Terminal.
 - Reopen your terminal application.
 
-1. Run the following command to download the `nvm` install script via `curl`:
+2. Run the following command to download the `nvm` install script via `curl`:
 
 ```bash
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.0/install.sh | bash
 ```
 
-2. Double check that NVM installed correctly with:
+3. Double check that NVM installed correctly with:
 
 ```bash
 nvm --version
 ```
 
-3. Finally we're ready to install Node. We want the latest LTS version. To get it and use it, run these commands:
+4. Finally we're ready to install Node. We want the latest LTS version. To get it and use it, run these commands:
 
 ```bash
 nvm install --lts
@@ -38,11 +38,13 @@ nvm install --lts
 
 > Your console should display a progress bar during installation. Wait for this to complete before continuing.
 
+5. Use the lts version of node.
+
 ```bash
 nvm use --lts
 ```
 
-> Set the default Node version
+6. Set the default Node version.
 ```bash
 nvm alias default node
 ```
