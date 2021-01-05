@@ -11,6 +11,13 @@ Most of the coding work we do in weeks 3 to 5 will be driven by the back-end web
 
 We're going to install Node.js using a tool called Node Version Manager (NVM for short). Node has been around for a while and has many versions available for us to use. We're going to focus on the latest Longterm Support (LTS) version for our work in the course.
 
+2. Verify you have a `.bash_profile` and a `.zshrc` file in your home directory.
+- Run `cd ~` to get into your home directory.
+- Run `ls` and see if you have `.bash_profile` or `.zshrc` listed.
+- If not run `touch .bash_profile .zshrc`
+- Quit out of your terminal completely. You can go to the top menu for your terminal and click Quit Terminal.
+- Reopen your terminal application.
+
 1. Run the following command to download the `nvm` install script via `curl`:
 
 ```bash
