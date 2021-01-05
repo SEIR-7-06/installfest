@@ -35,6 +35,11 @@ nvm install --lts
 nvm use --lts
 ```
 
+> Set the default Node version
+```bash
+nvm alias default node
+```
+
 ### Nodemon
 
 Nodemon (short for "node monitor") will make our Node.js workflow more efficient.
