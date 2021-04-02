@@ -25,6 +25,20 @@ Postman has many features that you'll learn more about as we progress, so we won
 
 An alternative some instructors use is [Insomnia Core](https://insomnia.rest/download/)
 
+## Window Manager
+
+While programming it's pretty common to need to juggle the placement of multiple windows. To speed up this process, we'll install a program that does this for us (and gives us a bunch of convenient keyboard shortcuts).
+
+1. Download https://raw.github.com/onsi/ShiftIt/master/ShiftIt.zip
+    * Next, extract it and drag the application icon into your `Applications` directory.
+    * Finally, launch the app by right-clicking on the ShiftIt icon and click open, follow the instructions to enable the accessibility options.
+
+2. We recommend you familiarze yourself with ShiftIt commands and keyboard shortcuts, like:
+* Move window to the left-half: Command+Option+Control+LeftArrow
+* Move window to the right-half: Command+Option+Control+RightArrow
+* **M**aximize a window: Command+Option+Control+**M**
+
+You can try this now.
 
 ## Touch Typing
 You will be at a serious disadvantage if you do not know how to touch type. To practice this skill we recommend [typingclub](http://typingclub.com), [speedcoder](http://www.speedcoder.net/) or [typeracer](http://play.typeracer.com/).
