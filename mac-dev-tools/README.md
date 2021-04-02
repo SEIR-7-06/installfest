@@ -27,7 +27,7 @@ An alternative some instructors use is [Insomnia Core](https://insomnia.rest/dow
 
 ## Window Manager
 
-While programming it's pretty common to need to juggle the placement of multiple windows. To speed up this process, we'll install a program that does this for us (and gives us a bunch of convenient keyboard shortcuts).
+While programming it's pretty common to need to juggle the placement of multiple windows. To speed up this process, we'll install [Shift](https://github.com/onsi/ShiftIt), a program that does this for us and gives us a bunch of convenient keyboard shortcuts.
 
 1. Download https://raw.github.com/onsi/ShiftIt/master/ShiftIt.zip
     * Next, extract it and drag the application icon into your `Applications` directory.
