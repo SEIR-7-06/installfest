@@ -39,7 +39,7 @@ With that out of the way, here are the directions that will allow you to use WSL
 
 ## WSL install instructions
 1. Read this intro
-    * [ ] [Alternative OS intro](./README.md)  
+    * [✔️] [Alternative OS intro](./README.md)  
 2. Prior to the first day of class: Enable WSL and Install Ubuntu from the Microsoft Store app
     * [ ] [WSL Setup](./wsl-setup.md)
 3. On the first day of class, your instructors will help you with **Installfest**
