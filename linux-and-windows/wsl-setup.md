@@ -30,3 +30,5 @@ If you have WSL enabled and Ubuntu installed with a Bash terminal on your machin
     * [ ] [Installfest](./wsl-installfest.md)
 4. Optional visual and usability upgrades for your terminal
     * [ ] [Visual Upgrades](./upgrades.md)
+5. Unit 2-4 Installfest
+    * [ ] [Unit 2, 3, 4 Installfest](./wsl-unit234.md)
