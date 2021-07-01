@@ -144,6 +144,21 @@ OR
 git config user.name
 git config user.email
 ```
+### Check your Git version
+
+Now let's check the version of Git we have installed. We want to have version 2.28 or above.
+
+To view your Git version, run the following command on the terminal
+
+```
+git --version
+```
+
+If your git version comes back as 2.28 or above, then we are good to continue to the next config step - which is to change the default branch name to `main`
+
+```
+git config --global init.defaultBranch main
+```
 
 ## Next Up
 * [Install Development Tools](../mac-dev-tools/README.md)
