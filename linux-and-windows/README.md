@@ -35,4 +35,16 @@ The biggest differences for our classroom use are that the installation for vari
 
 With that out of the way, here are the directions that will allow you to use WSL.
 
-### [WSL Setup steps](./wsl-setup.md)
+<hr />
+
+## WSL install instructions
+1. Read this intro
+    * [ ] [Alternative OS intro](./README.md)  
+2. Prior to the first day of class: Enable WSL and Install Ubuntu from the Microsoft Store app
+    * [ ] [WSL Setup](./wsl-setup.md)
+3. On the first day of class, your instructors will help you with **Installfest**
+    * [ ] [Installfest](./wsl-installfest.md)
+4. Optional visual and usability upgrades for your terminal
+    * [ ] [Visual Upgrades](./upgrades.md)
+5. Unit 2-4 Installfest
+    * [ ] [Unit 2, 3, 4 Installfest](./wsl-unit234.md)
