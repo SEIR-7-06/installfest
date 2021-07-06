@@ -27,21 +27,12 @@ An alternative some instructors use is [Insomnia Core](https://insomnia.rest/dow
 
 ## Window Manager
 
-While programming it's pretty common to need to juggle the placement of multiple windows. To speed up this process, we'll install [Shift](https://github.com/onsi/ShiftIt), a program that does this for us and gives us a bunch of convenient keyboard shortcuts.
+While programming we'll often have many applications open on our desktop at a time. A window management tool can be a big help in moving these applications around your desktop. One we recommend is [spectacle](https://www.spectacleapp.com/).
 
-1. Download https://raw.github.com/onsi/ShiftIt/master/ShiftIt.zip
-    * Next, extract it and drag the application icon into your `Applications` directory.
-    * Finally, launch the app by right-clicking on the ShiftIt icon and click open, follow the instructions to enable the accessibility options.
-
-2. We recommend you familiarze yourself with ShiftIt commands and keyboard shortcuts, like:
-* Move window to the left-half: Command+Option+Control+LeftArrow
-* Move window to the right-half: Command+Option+Control+RightArrow
-* **M**aximize a window: Command+Option+Control+**M**
-
-You can try this now.
+[Here is a list of helpful shortcut keys for Spectacle.](https://github.com/eczarny/spectacle)
 
 ## Touch Typing
-You will be at a serious disadvantage if you do not know how to touch type. To practice this skill we recommend [typingclub](http://typingclub.com), [speedcoder](http://www.speedcoder.net/) or [typeracer](http://play.typeracer.com/).
+If you find you are a slow typer we highly recommend practicing your typing. Improving your typing will be a huge help in being able to follow along with the code-along activities and in your own work. To practice this skill we recommend [typingclub](http://typingclub.com), [speedcoder](http://www.speedcoder.net/) or [typeracer](http://play.typeracer.com/).
 
 ## Keyboard Shortcuts
 By the way, developers LOVE shortcut key combinations. The more shortcuts you know, the faster you can code!
