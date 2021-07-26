@@ -78,7 +78,7 @@ which mongo
 ```
 
 If this has worked correctly, you will see `/usr/local/bin/mongo` as the output from terminal.
-
+<!-- 
 ## Robo3T
 
 Robo3T is a GUI (Graphical User Interface) tool to let us see the data in our Mongo databases. Let's install that now.
@@ -90,4 +90,4 @@ Robo3T is a GUI (Graphical User Interface) tool to let us see the data in our Mo
 
 - [Install Visual Studio Code](./mac-dev-tools/editor-vsc.md)
 
-![](https://media.giphy.com/media/l3dj09hpsfuYkijDi/giphy.gif)
+![](https://media.giphy.com/media/l3dj09hpsfuYkijDi/giphy.gif) -->
