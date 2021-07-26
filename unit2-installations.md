@@ -81,7 +81,7 @@ If this has worked correctly, you will see `/usr/local/bin/mongo` as the output 
 
 ## MongoDB Compass
 
-[MongoDB Compass](https://www.mongodb.com/try/download/compass) is a GUI (Graphical User Interface) tool to easily visualize our data in MongoDB.
+[MongoDB Compass](https://www.mongodb.com/try/download/compass) is a GUI (Graphical User Interface) tool to easily visualize our data in MongoDB. We'll install this one as well to help with development when we begin working with MongoDB.
 
 <!-- 
 ## Robo3T
