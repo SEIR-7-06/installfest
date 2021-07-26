@@ -78,6 +78,11 @@ which mongo
 ```
 
 If this has worked correctly, you will see `/usr/local/bin/mongo` as the output from terminal.
+
+## MongoDB Compass
+
+[MongoDB Compass](https://www.mongodb.com/try/download/compass) is a GUI (Graphical User Interface) tool to easily visualize our data in MongoDB.
+
 <!-- 
 ## Robo3T
 
