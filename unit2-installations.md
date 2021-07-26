@@ -21,7 +21,10 @@ We're going to install Node.js using a tool called Node Version Manager (NVM for
 2. Run the following command to download the `nvm` install script via `curl`:
 
 ```bash
-curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.0/install.sh | bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | zsh
+
+# If you're not running zsh and are using bash, use the following command instead!
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
 ```
 
 3. Double check that NVM installed correctly with:
