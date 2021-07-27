@@ -62,7 +62,7 @@ Nodemon (short for "node monitor") will make our Node.js workflow more efficient
 npm install -g nodemon
 ```
 
-## MongoDB
+<!-- ## MongoDB
 
 MonogDB is a database that stores information as easy to read "documents". We'll use it to store data in our Node.js and Express stack.
 
@@ -82,7 +82,7 @@ If this has worked correctly, you will see `/usr/local/bin/mongo` as the output 
 ## MongoDB Compass
 
 [MongoDB Compass](https://www.mongodb.com/try/download/compass) is a GUI (Graphical User Interface) tool to easily visualize our data in MongoDB. We'll install this one as well to help with development when we begin working with MongoDB.
-
+ -->
 <!-- 
 ## Robo3T
 
