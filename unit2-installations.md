@@ -5,7 +5,7 @@ Most of the coding work we do in weeks 3 to 5 will be driven by the back-end web
 #### Plan Overview
 
 1. Install Node.js, a platform for back-end web development with the JavaScript programming language.
-1. Install MongoDB, the database we'll use with our Node.js and Express stack.
+<!-- 1. Install MongoDB, the database we'll use with our Node.js and Express stack. -->
 
 ## Node.js
 
