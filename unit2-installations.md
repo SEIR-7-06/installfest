@@ -15,15 +15,23 @@ We're going to install Node.js using a tool called Node Version Manager (NVM for
 - Run `cd ~` to get into your home directory.
 - Run `ls` and see if you have `.zprofile`, `.zshrc`, and `.bash_profile` in your home directory.
 - If not, use the `touch` command to create those files. For example, `touch .zprofile` or `touch .bash_profile` or `touch .zshrc`
-- Quit out of your terminal completely. You can go to the top menu for your terminal and click Quit Terminal or press `cmd + q` on a Mac.
+- Run `ls` again to verify that you have created those files.
+- Quit out of your terminal completely. You can go to the top menu and select Terminal > Quit Terminal or press `cmd + q` on a Mac.
 - Reopen your terminal application.
 
-2. Run the following command to download the `nvm` install script via `curl`:
+2. In the terminal, run `echo $0` to see what shell you are currently running in your terminal.
+- If you get an output that says `-zsh` you are running the ZSH Shell.
+- If you get an output that says`-bash` you are running the Bash Shell.
 
+2. Install NVM
+
+If you are running the ZSH Shell run this command to install NVM.
 ```bash
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | zsh
+```
 
-# If you're not running zsh and are using bash, use the following command instead!
+If you are not running ZSH and are using Bash, run this command instead to install NVM
+```bash
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
 ```
 
@@ -33,7 +41,7 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
 nvm --version
 ```
 
-4. Finally we're ready to install Node. We want the latest LTS version. To get it and use it, run these commands:
+4. Finally we're ready to install Node. We want the latest LTS version (long term support version). To get it and use it, run these commands:
 
 ```bash
 nvm install --lts
