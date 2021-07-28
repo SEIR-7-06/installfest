@@ -13,8 +13,8 @@ We're going to install Node.js using a tool called Node Version Manager (NVM for
 
 1. Verify you have a `.bash_profile`, `.zshrc`, and a `.zprofile` file in your home directory.
 - Run `cd ~` to get into your home directory.
-- Run `ls` and see if you have `.bash_profile`, `.zshrc`, and `.zprofile` listed.
-- If not, use the `touch` command to create those files. For example, `touch .zprofile`
+- Run `ls` and see if you have `.zprofile`, `.zshrc`, and `.bash_profile` in your home directory.
+- If not, use the `touch` command to create those files. For example, `touch .zprofile` or `touch .bash_profile` or `touch .zshrc`
 - Quit out of your terminal completely. You can go to the top menu for your terminal and click Quit Terminal or press `cmd + q` on a Mac.
 - Reopen your terminal application.
 
