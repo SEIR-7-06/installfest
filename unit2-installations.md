@@ -35,15 +35,15 @@ If you are not running ZSH and are using Bash, run this command instead to insta
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
 ```
 
-After running the curl command quit out of your terminal completely again. You can go to the top menu and select Terminal > Quit Terminal or press `cmd + q` on a Mac.
+3. After running the curl command quit out of your terminal completely again. You can go to the top menu and select Terminal > Quit Terminal or press `cmd + q` on a Mac.
 
-3. Double check that NVM installed correctly with:
+4. Double check that NVM installed correctly with:
 
 ```bash
 nvm --version
 ```
 
-4. Finally we're ready to install Node. We want the latest LTS version (long term support version). To get it and use it, run these commands:
+5. Finally we're ready to install Node. We want the latest LTS version (long term support version). To get it and use it, run these commands:
 
 ```bash
 nvm install --lts
@@ -51,14 +51,14 @@ nvm install --lts
 
 > Your console should display a progress bar during installation. Wait for this to complete before continuing.
 
-5. Use the lts version of node.
+6. Use the lts version of node.
 
 ```bash
 nvm use --lts
 ```
 This will give you the latest version of node you have installed.
 
-6. Set the default Node version.
+7. Set the default Node version.
 ```bash
 nvm alias default <your-latest-version>
 ```
