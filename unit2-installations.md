@@ -35,6 +35,8 @@ If you are not running ZSH and are using Bash, run this command instead to insta
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
 ```
 
+After running the curl command quit out of your terminal completely again. You can go to the top menu and select Terminal > Quit Terminal or press `cmd + q` on a Mac.
+
 3. Double check that NVM installed correctly with:
 
 ```bash
