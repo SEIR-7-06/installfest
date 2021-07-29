@@ -54,14 +54,15 @@ nvm install --lts
 ```bash
 nvm use --lts
 ```
+This will give you the latest version of node you have installed.
 
 6. Set the default Node version.
 ```bash
-nvm alias default node
+nvm alias default <your-latest-version>
 ```
-or 
+for example
 ```bash
-nvm alias default --lts
+nvm alias default v14.17.4
 ```
 
 ### Nodemon
