@@ -59,6 +59,10 @@ nvm use --lts
 ```bash
 nvm alias default node
 ```
+or 
+```bash
+nvm alias default --lts
+```
 
 ### Nodemon
 
