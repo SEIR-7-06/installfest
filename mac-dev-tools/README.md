@@ -2,7 +2,16 @@
 
 ## Text Editor
 
-Our class will begin the course with [Visual Studio Code](./editor-vsc.md) as our preferred text editor. 
+Our class will begin the course with [Visual Studio Code](./editor-vsc.md) as our preferred text editor.
+
+If you are using a Mac with an M1 chip you may need to run this command in your terminal.
+```bash
+cat << EOF >> ~/.zprofile
+# Add Visual Studio Code (code)
+export PATH="\$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+EOF
+```
+
 
 
 ## Browser
