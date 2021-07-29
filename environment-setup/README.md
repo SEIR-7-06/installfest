@@ -51,6 +51,10 @@ If you are not using OS X Yosemite (10.10), OS X El Capitan (10.11), or macOS Si
     ```bash
     echo 'export PATH="/usr/local/bin:/usr/local/sbin:~/bin:$PATH"' >> ~/.bash_profile
     ```
+    and 
+    ```bash
+    echo 'export PATH="/usr/local/bin:/usr/local/sbin:~/bin:$PATH"' >> ~/.zprofile
+    ```
 
 6. Let's install our first package with Homebrew, `tree`!  This package adds a command to your Terminal that displays files in a tree view (instead of a list view like `ls`).  Enter the following command in your Terminal:
 
