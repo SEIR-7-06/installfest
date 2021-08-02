@@ -54,19 +54,18 @@ ALTER USER <your_user_name> WITH SUPERUSER;
 
 When it comes to installing database technologies - WSL has a handful of extra configuration steps as the installations will not work by default.
 
-* Run the following commands one by one:
-```
-sudo apt install mongodb
-sudo service mongodb start
-```
+Follow allong w/ the Microsoft documentation and instructions for installing MongoDB:
 
-* Test if it worked by running the `mongo` command. If you are in the mongo shell, then it worked!
-* If it didn't work, and you get an error referring to `/data/db ` - run the following:
-```
-sudo mkdir -p /data/db
-sudo chmod 777 /data/db
-mongod --dbpath /data/db
-```
+https://docs.microsoft.com/en-us/windows/wsl/tutorials/wsl-database#install-mongodb
+
+1. Run `sudo service mongodb start` - if you see 'OK', then we're all set!
+
+2. Run `mongo` to open the mongo shell!
+
+However, if `sudo service mongodb start` results in 'FAIL' - you may need to manually start the `mongod` process yourself
+
+   - Run `mongod`, then open a new tab. We'll leave the `mongod` tab alone to run the mongodb process in the background while we are working in a different tab.
+
 
 ## Unit 4 - Python
 Python install instructions - run the following commands in your terminal
