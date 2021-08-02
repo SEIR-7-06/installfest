@@ -1,7 +1,24 @@
 # 🛑 Unit 2-4 Installfest
 **Stop!** The following instructions pertain to units 2-4 - revisit this section in unit 2!
 
-## Unit 2 - PostgresQL
+## Unit 2 - MongoDB
+
+When it comes to installing database technologies - WSL has a handful of extra configuration steps as the installations will not work by default.
+
+Follow allong w/ the Microsoft documentation and instructions for installing MongoDB:
+
+https://docs.microsoft.com/en-us/windows/wsl/tutorials/wsl-database#install-mongodb
+
+1. Run `sudo service mongodb start` - if you see 'OK', then we're all set!
+
+2. Run `mongo` to open the mongo shell!
+
+However, if `sudo service mongodb start` results in 'FAIL' - you may need to manually start the `mongod` process yourself
+
+   - Run `mongod`, then open a new tab. We'll leave the `mongod` tab alone to run the mongodb process in the background while we are working in a different tab.
+
+
+## Unit 4 - PostgresQL
 When it comes to installing database technologies - WSL has a handful of extra configuration steps as the installations will not work by default.
 
 *  [PostgresQL Webpage](https://www.postgresql.org/download/linux/ubuntu/)
@@ -50,21 +67,6 @@ ALTER USER <your_user_name> WITH SUPERUSER;
 ```
 
 
-## Unit 3 - MongoDB
-
-When it comes to installing database technologies - WSL has a handful of extra configuration steps as the installations will not work by default.
-
-Follow allong w/ the Microsoft documentation and instructions for installing MongoDB:
-
-https://docs.microsoft.com/en-us/windows/wsl/tutorials/wsl-database#install-mongodb
-
-1. Run `sudo service mongodb start` - if you see 'OK', then we're all set!
-
-2. Run `mongo` to open the mongo shell!
-
-However, if `sudo service mongodb start` results in 'FAIL' - you may need to manually start the `mongod` process yourself
-
-   - Run `mongod`, then open a new tab. We'll leave the `mongod` tab alone to run the mongodb process in the background while we are working in a different tab.
 
 
 ## Unit 4 - Python
